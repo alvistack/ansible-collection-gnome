@@ -94,3 +94,7 @@
 	path = roles/operator_sdk
 	url = https://github.com/alvistack/ansible-role-operator_sdk.git
 	branch = develop
+[submodule "roles/flatpak"]
+	path = roles/flatpak
+	url = https://github.com/alvistack/ansible-role-flatpak.git
+	branch = develop
