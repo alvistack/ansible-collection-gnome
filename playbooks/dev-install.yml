@@ -14,11 +14,18 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-- import_playbook: hosts-install.yml
-- import_playbook: kernel-install.yml
-- import_playbook: ansible-install.yml
-- import_playbook: gnome-install.yml
-- import_playbook: podman-install.yml
-- import_playbook: vagrant-install.yml
-- import_playbook: app-install.yml
-- import_playbook: dev-install.yml
+- hosts: all
+  remote_user: root
+  become: true
+  tasks:
+    - include_role:
+        name: rclone
+      tags: rclone
+
+    - include_role:
+        name: restic
+      tags: restic
+
+    - include_role:
+        name: code
+      tags: code
