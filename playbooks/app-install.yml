@@ -31,5 +31,9 @@
       tags: thunderbird
 
     - include_role:
+        name: libreoffice
+      tags: libreoffice
+
+    - include_role:
         name: teamviewer
       tags: teamviewer
