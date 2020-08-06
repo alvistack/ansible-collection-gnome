@@ -14,18 +14,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-- import_playbook: hosts-install.yml
-- import_playbook: kernel-install.yml
-- import_playbook: ansible-install.yml
-
-- import_playbook: gnome-install.yml
-- import_playbook: podman-install.yml
-- import_playbook: vagrant-install.yml
-
-- import_playbook: devel-install.yml
-- import_playbook: editors-install.yml
-- import_playbook: graphics-install.yml
-- import_playbook: mail-install.yml
-- import_playbook: misc-install.yml
-- import_playbook: net-install.yml
-- import_playbook: web-install.yml
+- hosts: all
+  remote_user: root
+  become: true
+  tasks:
+    - include_role:
+        name: rclone
+      tags: rclone
+    
+    - include_role:
+        name: teamviewer
+      tags: teamviewer

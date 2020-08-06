@@ -19,13 +19,5 @@
   become: true
   tasks:
     - include_role:
-        name: rclone
-      tags: rclone
-
-    - include_role:
-        name: restic
-      tags: restic
-
-    - include_role:
         name: code
       tags: code
