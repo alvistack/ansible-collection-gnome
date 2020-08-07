@@ -23,5 +23,13 @@
       tags: rclone
 
     - include_role:
+        name: filezilla
+      tags: filezilla
+
+    - include_role:
+        name: transmission
+      tags: transmission
+
+    - include_role:
         name: teamviewer
       tags: teamviewer

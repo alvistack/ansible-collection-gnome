@@ -31,5 +31,17 @@
       tags: inkscape
 
     - include_role:
+        name: scribus
+      tags: scribus
+
+    - include_role:
+        name: darktable
+      tags: darktable
+
+    - include_role:
+        name: handbrake
+      tags: handbrake
+
+    - include_role:
         name: vlc
       tags: vlc

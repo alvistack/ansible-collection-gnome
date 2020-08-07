@@ -42,6 +42,14 @@
 	path = roles/crun
 	url = https://github.com/alvistack/ansible-role-crun
 	branch = develop
+[submodule "roles/darktable"]
+	path = roles/darktable
+	url = https://github.com/alvistack/ansible-role-darktable
+	branch = develop
+[submodule "roles/filezilla"]
+	path = roles/filezilla
+	url = https://github.com/alvistack/ansible-role-filezilla
+	branch = develop
 [submodule "roles/firefox"]
 	path = roles/firefox
 	url = https://github.com/alvistack/ansible-role-firefox
@@ -61,6 +69,10 @@
 [submodule "roles/gnome"]
 	path = roles/gnome
 	url = https://github.com/alvistack/ansible-role-gnome
+	branch = develop
+[submodule "roles/handbrake"]
+	path = roles/handbrake
+	url = https://github.com/alvistack/ansible-role-handbrake
 	branch = develop
 [submodule "roles/inkscape"]
 	path = roles/inkscape
@@ -106,6 +118,10 @@
 	path = roles/runc
 	url = https://github.com/alvistack/ansible-role-runc
 	branch = develop
+[submodule "roles/scribus"]
+	path = roles/scribus
+	url = https://github.com/alvistack/ansible-role-scribus
+	branch = develop
 [submodule "roles/skopeo"]
 	path = roles/skopeo
 	url = https://github.com/alvistack/ansible-role-skopeo
@@ -125,6 +141,10 @@
 [submodule "roles/timezone"]
 	path = roles/timezone
 	url = https://github.com/alvistack/ansible-role-timezone
+	branch = develop
+[submodule "roles/transmission"]
+	path = roles/transmission
+	url = https://github.com/alvistack/ansible-role-transmission
 	branch = develop
 [submodule "roles/vagrant"]
 	path = roles/vagrant
