@@ -70,6 +70,10 @@
 	path = roles/gnome
 	url = https://github.com/alvistack/ansible-role-gnome
 	branch = develop
+[submodule "roles/gnucash"]
+	path = roles/gnucash
+	url = https://github.com/alvistack/ansible-role-gnucash
+	branch = develop
 [submodule "roles/handbrake"]
 	path = roles/handbrake
 	url = https://github.com/alvistack/ansible-role-handbrake

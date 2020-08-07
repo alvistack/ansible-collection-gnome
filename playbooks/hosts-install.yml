@@ -43,9 +43,5 @@
       tags: sshd
 
     - include_role:
-        name: rclone
-      tags: rclone
-
-    - include_role:
-        name: restic
-      tags: restic
+        name: flatpak
+      tags: flatpak
