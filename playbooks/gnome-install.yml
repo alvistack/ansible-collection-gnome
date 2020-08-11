@@ -23,5 +23,9 @@
       tags: gnome
 
     - include_role:
+        name: flatpak
+      tags: flatpak
+
+    - include_role:
         name: gnucash
       tags: gnucash

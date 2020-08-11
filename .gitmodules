@@ -154,6 +154,10 @@
 	path = roles/vagrant
 	url = https://github.com/alvistack/ansible-role-vagrant
 	branch = develop
+[submodule "roles/vim"]
+	path = roles/vim
+	url = https://github.com/alvistack/ansible-role-vim
+	branch = develop
 [submodule "roles/virtualbox"]
 	path = roles/virtualbox
 	url = https://github.com/alvistack/ansible-role-virtualbox
