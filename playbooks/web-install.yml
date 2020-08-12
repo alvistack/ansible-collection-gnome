@@ -19,13 +19,9 @@
   become: true
   tasks:
     - include_role:
-        name: gnome
-      tags: gnome
+        name: firefox
+      tags: firefox
 
     - include_role:
-        name: flatpak
-      tags: flatpak
-
-    - include_role:
-        name: gnucash
-      tags: gnucash
+        name: chrome
+      tags: chrome

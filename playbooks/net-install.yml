@@ -19,13 +19,17 @@
   become: true
   tasks:
     - include_role:
-        name: gnome
-      tags: gnome
+        name: rclone
+      tags: rclone
 
     - include_role:
-        name: flatpak
-      tags: flatpak
+        name: filezilla
+      tags: filezilla
 
     - include_role:
-        name: gnucash
-      tags: gnucash
+        name: transmission
+      tags: transmission
+
+    - include_role:
+        name: teamviewer
+      tags: teamviewer

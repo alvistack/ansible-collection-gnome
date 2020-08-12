@@ -31,6 +31,10 @@
       tags: git
 
     - include_role:
+        name: vim
+      tags: vim
+
+    - include_role:
         name: locales
       tags: locales
 
@@ -41,11 +45,3 @@
     - include_role:
         name: sshd
       tags: sshd
-
-    - include_role:
-        name: rclone
-      tags: rclone
-
-    - include_role:
-        name: restic
-      tags: restic
