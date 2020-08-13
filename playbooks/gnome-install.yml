@@ -19,8 +19,8 @@
   become: true
   tasks:
     - include_role:
-        name: gnome
-      tags: gnome
+        name: gnome_desktop
+      tags: gnome_desktop
 
     - include_role:
         name: flatpak
