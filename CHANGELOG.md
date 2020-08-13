@@ -2,6 +2,8 @@
 
 ## 4.5.0 - TBC
 
+  - Support openSUSE Leap 15.2
+
 ### Major Changes
 
 ## 4.4.0 - 2020-08-12
