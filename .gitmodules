@@ -78,6 +78,10 @@
 	path = roles/handbrake
 	url = https://github.com/alvistack/ansible-role-handbrake.git
 	branch = develop
+[submodule "roles/hibernate"]
+	path = roles/hibernate
+	url = https://github.com/alvistack/ansible-role-hibernate.git
+	branch = develop
 [submodule "roles/inkscape"]
 	path = roles/inkscape
 	url = https://github.com/alvistack/ansible-role-inkscape.git
@@ -117,10 +121,6 @@
 [submodule "roles/restic"]
 	path = roles/restic
 	url = https://github.com/alvistack/ansible-role-restic.git
-	branch = develop
-[submodule "roles/runc"]
-	path = roles/runc
-	url = https://github.com/alvistack/ansible-role-runc.git
 	branch = develop
 [submodule "roles/scribus"]
 	path = roles/scribus
