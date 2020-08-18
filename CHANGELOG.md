@@ -2,6 +2,7 @@
 
 ## 4.5.0 - TBC
 
+  - Upgrade minimal Ansible support to 2.10.0
   - Support openSUSE Leap 15.2
 
 ### Major Changes
