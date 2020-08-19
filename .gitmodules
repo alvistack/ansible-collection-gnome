@@ -158,6 +158,10 @@
 	path = roles/transmission
 	url = https://github.com/alvistack/ansible-role-transmission.git
 	branch = develop
+[submodule "roles/uget"]
+	path = roles/uget
+	url = https://github.com/alvistack/ansible-role-uget.git
+	branch = develop
 [submodule "roles/vagrant"]
 	path = roles/vagrant
 	url = https://github.com/alvistack/ansible-role-vagrant.git

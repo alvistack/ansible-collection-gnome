@@ -25,3 +25,7 @@
     - include_role:
         name: chrome
       tags: chrome
+
+    - include_role:
+        name: uget
+      tags: uget
