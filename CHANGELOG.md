@@ -2,9 +2,11 @@
 
 ## 4.5.0 - TBC
 
-  - Support openSUSE Leap 15.2
-
 ### Major Changes
+
+  - Upgrade Travis CI test as Ubuntu Focal based
+  - Upgrade minimal Ansible support to 2.10.0
+  - Support openSUSE Leap 15.2
 
 ## 4.4.0 - 2020-08-12
 
