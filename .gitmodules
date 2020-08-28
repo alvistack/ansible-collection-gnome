@@ -34,10 +34,6 @@
 	path = roles/containers_common
 	url = https://github.com/alvistack/ansible-role-containers_common.git
 	branch = develop
-[submodule "roles/cri_tools"]
-	path = roles/cri_tools
-	url = https://github.com/alvistack/ansible-role-cri_tools.git
-	branch = develop
 [submodule "roles/crun"]
 	path = roles/crun
 	url = https://github.com/alvistack/ansible-role-crun.git
