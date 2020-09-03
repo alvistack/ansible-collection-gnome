@@ -78,6 +78,10 @@
 	path = roles/gnucash
 	url = https://github.com/alvistack/ansible-role-gnucash.git
 	branch = develop
+[submodule "roles/gparted"]
+	path = roles/gparted
+	url = https://github.com/alvistack/ansible-role-gparted.git
+	branch = develop
 [submodule "roles/handbrake"]
 	path = roles/handbrake
 	url = https://github.com/alvistack/ansible-role-handbrake.git

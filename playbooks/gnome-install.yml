@@ -27,5 +27,9 @@
       tags: flatpak
 
     - include_role:
+        name: gparted
+      tags: gparted
+
+    - include_role:
         name: gnucash
       tags: gnucash
