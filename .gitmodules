@@ -2,6 +2,10 @@
 	path = roles/ansible
 	url = https://github.com/alvistack/ansible-role-ansible.git
 	branch = develop
+[submodule "roles/bleachbit"]
+	path = roles/bleachbit
+	url = https://github.com/alvistack/ansible-role-bleachbit.git
+	branch = develop
 [submodule "roles/blender"]
 	path = roles/blender
 	url = https://github.com/alvistack/ansible-role-blender.git
