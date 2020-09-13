@@ -22,6 +22,7 @@
 - import_playbook: podman-install.yml
 - import_playbook: vagrant-install.yml
 
+- import_playbook: admin-install.yml
 - import_playbook: devel-install.yml
 - import_playbook: editors-install.yml
 - import_playbook: graphics-install.yml
