@@ -186,3 +186,15 @@
 	path = roles/vlc
 	url = https://github.com/alvistack/ansible-role-vlc.git
 	branch = develop
+[submodule "roles/picard"]
+	path = roles/picard
+	url = https://github.com/alvistack/ansible-role-picard.git
+	branch = develop
+[submodule "roles/audacious"]
+	path = roles/audacious
+	url = https://github.com/alvistack/ansible-role-audacious.git
+	branch = develop
+[submodule "roles/audacity"]
+	path = roles/audacity
+	url = https://github.com/alvistack/ansible-role-audacity.git
+	branch = develop
