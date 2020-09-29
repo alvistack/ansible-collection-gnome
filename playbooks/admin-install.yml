@@ -21,3 +21,11 @@
     - include_role:
         name: bleachbit
       tags: bleachbit
+    
+    - include_role:
+        name: vagrant
+      tags: vagrant
+
+    - include_role:
+        name: libvirt
+      tags: libvirt
