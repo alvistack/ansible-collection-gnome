@@ -2,6 +2,14 @@
 	path = roles/ansible
 	url = https://github.com/alvistack/ansible-role-ansible.git
 	branch = develop
+[submodule "roles/audacious"]
+	path = roles/audacious
+	url = https://github.com/alvistack/ansible-role-audacious.git
+	branch = develop
+[submodule "roles/audacity"]
+	path = roles/audacity
+	url = https://github.com/alvistack/ansible-role-audacity.git
+	branch = develop
 [submodule "roles/bleachbit"]
 	path = roles/bleachbit
 	url = https://github.com/alvistack/ansible-role-bleachbit.git
@@ -118,6 +126,10 @@
 	path = roles/operator_sdk
 	url = https://github.com/alvistack/ansible-role-operator_sdk.git
 	branch = develop
+[submodule "roles/picard"]
+	path = roles/picard
+	url = https://github.com/alvistack/ansible-role-picard.git
+	branch = develop
 [submodule "roles/podman"]
 	path = roles/podman
 	url = https://github.com/alvistack/ansible-role-podman.git
@@ -185,16 +197,4 @@
 [submodule "roles/vlc"]
 	path = roles/vlc
 	url = https://github.com/alvistack/ansible-role-vlc.git
-	branch = develop
-[submodule "roles/picard"]
-	path = roles/picard
-	url = https://github.com/alvistack/ansible-role-picard.git
-	branch = develop
-[submodule "roles/audacious"]
-	path = roles/audacious
-	url = https://github.com/alvistack/ansible-role-audacious.git
-	branch = develop
-[submodule "roles/audacity"]
-	path = roles/audacity
-	url = https://github.com/alvistack/ansible-role-audacity.git
 	branch = develop
