@@ -14,19 +14,18 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-collections:
-  - name: community.general
-    src: https://galaxy.ansible.com
-    version: ">=1.0.0,<2.0.0"
+- hosts: all
+  remote_user: root
+  become: true
+  tasks:
+    - include_role:
+        name: audacious
+      tags: audacious
 
-  - name: community.kubernetes
-    src: https://galaxy.ansible.com
-    version: ">=1.0.0,<2.0.0"
+    - include_role:
+        name: audacity
+      tags: audacity
 
-  - name: containers.podman
-    src: https://galaxy.ansible.com
-    version: ">=1.0.0,<2.0.0"
-
-  - name: operator_sdk.util
-    src: https://galaxy.ansible.com
-    version: ">=0.0.0,<1.0.0"
+    - include_role:
+        name: picard
+      tags: picard
