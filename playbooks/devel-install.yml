@@ -21,3 +21,7 @@
     - include_role:
         name: code
       tags: code
+
+    - include_role:
+        name: devel
+      tags: devel

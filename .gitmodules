@@ -198,3 +198,7 @@
 	path = roles/vlc
 	url = https://github.com/alvistack/ansible-role-vlc.git
 	branch = develop
+[submodule "roles/packer"]
+	path = roles/packer
+	url = https://github.com/alvistack/ansible-role-packer.git
+	branch = develop
