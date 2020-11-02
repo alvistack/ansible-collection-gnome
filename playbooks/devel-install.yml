@@ -23,5 +23,5 @@
       tags: code
 
     - include_role:
-        name: devel
-      tags: devel
+        name: packer
+      tags: packer
