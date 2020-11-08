@@ -4,6 +4,8 @@
 
 ### Major Changes
 
+  - Support Ubuntu 20.10
+
 ## 4.5.0 - 2020-08-26
 
 ### Major Changes
