@@ -46,10 +46,6 @@
 	path = roles/containers_common
 	url = https://github.com/alvistack/ansible-role-containers_common.git
 	branch = develop
-[submodule "roles/crun"]
-	path = roles/crun
-	url = https://github.com/alvistack/ansible-role-crun.git
-	branch = develop
 [submodule "roles/darktable"]
 	path = roles/darktable
 	url = https://github.com/alvistack/ansible-role-darktable.git
@@ -126,6 +122,10 @@
 	path = roles/operator_sdk
 	url = https://github.com/alvistack/ansible-role-operator_sdk.git
 	branch = develop
+[submodule "roles/packer"]
+	path = roles/packer
+	url = https://github.com/alvistack/ansible-role-packer.git
+	branch = develop
 [submodule "roles/picard"]
 	path = roles/picard
 	url = https://github.com/alvistack/ansible-role-picard.git
@@ -197,8 +197,4 @@
 [submodule "roles/vlc"]
 	path = roles/vlc
 	url = https://github.com/alvistack/ansible-role-vlc.git
-	branch = develop
-[submodule "roles/packer"]
-	path = roles/packer
-	url = https://github.com/alvistack/ansible-role-packer.git
 	branch = develop
