@@ -1,6 +1,6 @@
 # Ansible Collection for Gnome
 
-[![Travis](https://img.shields.io/travis/com/alvistack/ansible-collection-gnome.svg)](https://travis-ci.com/alvistack/ansible-collection-gnome)
+[![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/ansible-collection-gnome/master)](https://gitlab.com/alvistack/ansible-collection-gnome/-/pipelines)
 [![GitHub release](https://img.shields.io/github/release/alvistack/ansible-collection-gnome.svg)](https://github.com/alvistack/ansible-collection-gnome/releases)
 [![GitHub license](https://img.shields.io/github/license/alvistack/ansible-collection-gnome.svg)](https://github.com/alvistack/ansible-collection-gnome/blob/master/LICENSE)
 [![Ansible Collection](https://img.shields.io/badge/galaxy-alvistack.gnome-blue.svg)](https://galaxy.ansible.com/alvistack/gnome)
