@@ -1,8 +1,13 @@
-# Ansible Collection for Kubernetes
+# Ansible Collection for Gnome
 
 ## 4.6.0 - TBC
 
 ### Major Changes
+
+  - Migrate from Travis CI to GitLab CI
+  - Support Fedora 33
+  - Remove Fedora 32 support
+  - Support Ubuntu 20.10
 
 ## 4.5.0 - 2020-08-26
 
