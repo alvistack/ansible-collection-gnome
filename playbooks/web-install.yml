@@ -29,3 +29,7 @@
     - include_role:
         name: uget
       tags: uget
+
+    - include_role:
+        name: node
+      tags: node

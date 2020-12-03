@@ -20,9 +20,11 @@
 - import_playbook: docker-install.yml
 - import_playbook: editors-install.yml
 - import_playbook: graphics-install.yml
+- import_playbook: java-install.yml
 - import_playbook: mail-install.yml
 - import_playbook: misc-install.yml
 - import_playbook: net-install.yml
+- import_playbook: php-install.yml
 - import_playbook: podman-install.yml
 - import_playbook: sound-install.yml
 - import_playbook: web-install.yml

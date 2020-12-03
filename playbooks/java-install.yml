@@ -19,13 +19,5 @@
   become: true
   tasks:
     - include_role:
-        name: code
-      tags: code
-
-    - include_role:
-        name: packer
-      tags: packer
-
-    - include_role:
-        name: golang
-      tags: golang
+        name: openjdk
+      tags: openjdk

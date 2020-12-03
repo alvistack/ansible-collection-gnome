@@ -82,6 +82,10 @@
 	path = roles/gnucash
 	url = https://github.com/alvistack/ansible-role-gnucash.git
 	branch = develop
+[submodule "roles/golang"]
+	path = roles/golang
+	url = https://github.com/alvistack/ansible-role-golang.git
+	branch = develop
 [submodule "roles/gparted"]
 	path = roles/gparted
 	url = https://github.com/alvistack/ansible-role-gparted.git
@@ -118,6 +122,14 @@
 	path = roles/locales
 	url = https://github.com/alvistack/ansible-role-locales.git
 	branch = develop
+[submodule "roles/node"]
+	path = roles/node
+	url = https://github.com/alvistack/ansible-role-node.git
+	branch = develop
+[submodule "roles/openjdk"]
+	path = roles/openjdk
+	url = https://github.com/alvistack/ansible-role-openjdk.git
+	branch = develop
 [submodule "roles/operator_sdk"]
 	path = roles/operator_sdk
 	url = https://github.com/alvistack/ansible-role-operator_sdk.git
@@ -125,6 +137,10 @@
 [submodule "roles/packer"]
 	path = roles/packer
 	url = https://github.com/alvistack/ansible-role-packer.git
+	branch = develop
+[submodule "roles/php"]
+	path = roles/php
+	url = https://github.com/alvistack/ansible-role-php.git
 	branch = develop
 [submodule "roles/picard"]
 	path = roles/picard
