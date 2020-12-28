@@ -214,3 +214,7 @@
 	path = roles/vlc
 	url = https://github.com/alvistack/ansible-role-vlc.git
 	branch = develop
+[submodule "roles/wireguard"]
+	path = roles/wireguard
+	url = https://github.com/alvistack/ansible-role-wireguard.git
+	branch = develop

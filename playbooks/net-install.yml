@@ -33,3 +33,7 @@
     - include_role:
         name: teamviewer
       tags: teamviewer
+
+    - include_role:
+        name: wireguard
+      tags: wireguard
