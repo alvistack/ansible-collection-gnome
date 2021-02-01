@@ -19,13 +19,5 @@
   become: true
   tasks:
     - include_role:
-        name: firefox
-      tags: firefox
-
-    - include_role:
-        name: chrome
-      tags: chrome
-
-    - include_role:
-        name: uget
-      tags: uget
+        name: golang
+      tags: golang

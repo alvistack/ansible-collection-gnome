@@ -19,13 +19,9 @@
   become: true
   tasks:
     - include_role:
-        name: firefox
-      tags: firefox
+        name: kubectl
+      tags: kubectl
 
     - include_role:
-        name: chrome
-      tags: chrome
-
-    - include_role:
-        name: uget
-      tags: uget
+        name: operator_sdk
+      tags: operator_sdk
