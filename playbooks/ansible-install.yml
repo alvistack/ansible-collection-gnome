@@ -21,11 +21,3 @@
     - include_role:
         name: ansible
       tags: ansible
-
-    - include_role:
-        name: kubectl
-      tags: kubectl
-
-    - include_role:
-        name: operator_sdk
-      tags: operator_sdk

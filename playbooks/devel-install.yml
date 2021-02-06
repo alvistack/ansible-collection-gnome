@@ -25,7 +25,3 @@
     - include_role:
         name: packer
       tags: packer
-
-    - include_role:
-        name: golang
-      tags: golang
