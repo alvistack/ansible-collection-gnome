@@ -21,15 +21,3 @@
     - include_role:
         name: gnome_desktop
       tags: gnome_desktop
-
-    - include_role:
-        name: flatpak
-      tags: flatpak
-
-    - include_role:
-        name: gparted
-      tags: gparted
-
-    - include_role:
-        name: gnucash
-      tags: gnucash
