@@ -19,9 +19,21 @@
   become: true
   tasks:
     - include_role:
-        name: code
-      tags: code
-
-    - include_role:
         name: packer
       tags: packer
+
+    - include_role:
+        name: vagrant
+      tags: vagrant
+
+    - include_role:
+        name: docker
+      tags: docker
+
+    - include_role:
+        name: libvirt
+      tags: libvirt
+
+    - include_role:
+        name: virtualbox
+      tags: virtualbox

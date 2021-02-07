@@ -19,9 +19,45 @@
   become: true
   tasks:
     - include_role:
+        name: bleachbit
+      tags: bleachbit
+
+    - include_role:
         name: restic
       tags: restic
 
     - include_role:
-        name: virtualbox
-      tags: virtualbox
+        name: rclone
+      tags: rclone
+
+    - include_role:
+        name: uget
+      tags: uget
+
+    - include_role:
+        name: filezilla
+      tags: filezilla
+
+    - include_role:
+        name: transmission
+      tags: transmission
+
+    - include_role:
+        name: teamviewer
+      tags: teamviewer
+
+    - include_role:
+        name: wireguard
+      tags: wireguard
+
+    - include_role:
+        name: flatpak
+      tags: flatpak
+
+    - include_role:
+        name: gparted
+      tags: gparted
+
+    - include_role:
+        name: gnucash
+      tags: gnucash

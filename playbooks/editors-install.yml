@@ -19,5 +19,9 @@
   become: true
   tasks:
     - include_role:
+        name: code
+      tags: code
+
+    - include_role:
         name: libreoffice
       tags: libreoffice
