@@ -37,3 +37,7 @@
     - include_role:
         name: virtualbox
       tags: virtualbox
+
+    - include_role:
+        name: molecule
+      tags: molecule

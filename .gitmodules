@@ -122,6 +122,10 @@
 	path = roles/locales
 	url = https://github.com/alvistack/ansible-role-locales.git
 	branch = develop
+[submodule "roles/molecule"]
+	path = roles/molecule
+	url = https://github.com/alvistack/ansible-role-molecule.git
+	branch = develop
 [submodule "roles/node"]
 	path = roles/node
 	url = https://github.com/alvistack/ansible-role-node.git
