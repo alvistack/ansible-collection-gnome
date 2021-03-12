@@ -14,9 +14,4 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-- import_playbook: 00-hosts-install.yml
-- import_playbook: 10-kernel-install.yml
-- import_playbook: 20-ansible-install.yml
-- import_playbook: 50-gnome-install.yml
-- import_playbook: 50-devel-install.yml
-- import_playbook: 50-web-install.yml
+- import_playbook: 90-ansible-reboot.yml
