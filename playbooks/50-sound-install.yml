@@ -18,14 +18,17 @@
   remote_user: root
   become: true
   tasks:
-    - include_role:
+    - name: include role
+      include_role:
         name: audacious
       tags: audacious
 
-    - include_role:
+    - name: include role
+      include_role:
         name: audacity
       tags: audacity
 
-    - include_role:
+    - name: include role
+      include_role:
         name: picard
       tags: picard
