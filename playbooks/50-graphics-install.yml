@@ -18,30 +18,37 @@
   remote_user: root
   become: true
   tasks:
-    - include_role:
+    - name: include role
+      include_role:
         name: blender
       tags: blender
 
-    - include_role:
+    - name: include role
+      include_role:
         name: gimp
       tags: gimp
 
-    - include_role:
+    - name: include role
+      include_role:
         name: inkscape
       tags: inkscape
 
-    - include_role:
+    - name: include role
+      include_role:
         name: scribus
       tags: scribus
 
-    - include_role:
+    - name: include role
+      include_role:
         name: darktable
       tags: darktable
 
-    - include_role:
+    - name: include role
+      include_role:
         name: handbrake
       tags: handbrake
 
-    - include_role:
+    - name: include role
+      include_role:
         name: vlc
       tags: vlc

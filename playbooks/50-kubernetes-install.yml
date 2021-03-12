@@ -18,10 +18,12 @@
   remote_user: root
   become: true
   tasks:
-    - include_role:
+    - name: include role
+      include_role:
         name: kubectl
       tags: kubectl
 
-    - include_role:
+    - name: include role
+      include_role:
         name: operator_sdk
       tags: operator_sdk
