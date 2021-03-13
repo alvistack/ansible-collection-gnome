@@ -130,6 +130,10 @@
 	path = roles/node
 	url = https://github.com/alvistack/ansible-role-node.git
 	branch = develop
+[submodule "roles/obs_studio"]
+	path = roles/obs_studio
+	url = https://github.com/alvistack/ansible-role-obs_studio.git
+	branch = develop
 [submodule "roles/openjdk"]
 	path = roles/openjdk
 	url = https://github.com/alvistack/ansible-role-openjdk.git
