@@ -20,6 +20,11 @@
   tasks:
     - name: include role
       include_role:
+        name: obs_studio
+      tags: obs_studio
+
+    - name: include role
+      include_role:
         name: blender
       tags: blender
 
