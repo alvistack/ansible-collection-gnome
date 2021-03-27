@@ -55,6 +55,11 @@
 
     - name: include role
       include_role:
+        name: teams
+      tags: teams
+
+    - name: include role
+      include_role:
         name: wireguard
       tags: wireguard
 
