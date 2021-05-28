@@ -142,6 +142,10 @@
 	path = roles/operator_sdk
 	url = https://github.com/alvistack/ansible-role-operator_sdk.git
 	branch = develop
+[submodule "roles/owasp_zap"]
+	path = roles/owasp_zap
+	url = https://github.com/alvistack/ansible-role-owasp_zap.git
+	branch = develop
 [submodule "roles/packer"]
 	path = roles/packer
 	url = https://github.com/alvistack/ansible-role-packer.git
