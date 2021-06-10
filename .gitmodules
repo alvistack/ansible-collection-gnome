@@ -30,10 +30,6 @@
 	path = roles/chrome
 	url = https://github.com/alvistack/ansible-role-chrome.git
 	branch = develop
-[submodule "roles/cni_plugins"]
-	path = roles/cni_plugins
-	url = https://github.com/alvistack/ansible-role-cni_plugins.git
-	branch = develop
 [submodule "roles/code"]
 	path = roles/code
 	url = https://github.com/alvistack/ansible-role-code.git
@@ -233,4 +229,8 @@
 [submodule "roles/wireguard"]
 	path = roles/wireguard
 	url = https://github.com/alvistack/ansible-role-wireguard.git
+	branch = develop
+[submodule "roles/containernetworking_plugins"]
+	path = roles/containernetworking_plugins
+	url = git@github.com:alvistack/ansible-role-containernetworking_plugins.git
 	branch = develop
