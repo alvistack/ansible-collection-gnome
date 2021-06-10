@@ -30,10 +30,6 @@
 	path = roles/chrome
 	url = https://github.com/alvistack/ansible-role-chrome.git
 	branch = develop
-[submodule "roles/cni_plugins"]
-	path = roles/cni_plugins
-	url = https://github.com/alvistack/ansible-role-cni_plugins.git
-	branch = develop
 [submodule "roles/code"]
 	path = roles/code
 	url = https://github.com/alvistack/ansible-role-code.git
@@ -41,6 +37,10 @@
 [submodule "roles/conmon"]
 	path = roles/conmon
 	url = https://github.com/alvistack/ansible-role-conmon.git
+	branch = develop
+[submodule "roles/containernetworking_plugins"]
+	path = roles/containernetworking_plugins
+	url = https://github.com/alvistack/ansible-role-containernetworking_plugins.git
 	branch = develop
 [submodule "roles/containers_common"]
 	path = roles/containers_common
@@ -65,6 +65,10 @@
 [submodule "roles/flatpak"]
 	path = roles/flatpak
 	url = https://github.com/alvistack/ansible-role-flatpak.git
+	branch = develop
+[submodule "roles/fuse_overlayfs"]
+	path = roles/fuse_overlayfs
+	url = https://github.com/alvistack/ansible-role-fuse_overlayfs.git
 	branch = develop
 [submodule "roles/gimp"]
 	path = roles/gimp
