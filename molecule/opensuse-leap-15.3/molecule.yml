@@ -22,20 +22,13 @@ platforms:
   - name: ${MOLECULE_INSTANCE_NAME}-1
     box: alvistack/opensuse-leap-15.3
     cpu: 2
-    memory: 4096
+    memory: 8192
     provider_raw_config_args:
       - "disk_bus = 'virtio'"
       - "nic_model_type = 'virtio'"
       - "video_type = 'virtio'"
       - "disk_driver :cache => 'writeback'"
       - "storage :file, bus: 'virtio', cache: 'writeback'"
-    groups:
-      - ansible
-      - ceph_mon
-      - ceph_mgr
-      - ceph_osd
-      - ceph_mds
-      - ceph_rgw
 lint: |
   set -euxo pipefail
   yamllint .
