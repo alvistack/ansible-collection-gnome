@@ -4,6 +4,10 @@
 
 ### Major Changes
 
+## 20210718.1.1 - 2021-07-18
+
+### Major Changes
+
   - Upgrade minimal Ansible community package support to 4.2.0
   - Support Debian 11
   - Support openSUSE Leap 15.3
