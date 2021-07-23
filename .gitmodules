@@ -114,9 +114,9 @@
 	path = roles/kernel
 	url = https://github.com/alvistack/ansible-role-kernel.git
 	branch = develop
-[submodule "roles/kubectl"]
-	path = roles/kubectl
-	url = https://github.com/alvistack/ansible-role-kubectl.git
+[submodule "roles/kube_kubectl"]
+	path = roles/kube_kubectl
+	url = https://github.com/alvistack/ansible-role-kube_kubectl.git
 	branch = develop
 [submodule "roles/libreoffice"]
 	path = roles/libreoffice
