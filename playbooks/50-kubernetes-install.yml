@@ -20,8 +20,8 @@
   tasks:
     - name: include role
       include_role:
-        name: kubectl
-      tags: kubectl
+        name: kube_kubectl
+      tags: kube_kubectl
 
     - name: include role
       include_role:
