@@ -70,10 +70,6 @@
 	path = roles/flatpak
 	url = https://github.com/alvistack/ansible-role-flatpak.git
 	branch = develop
-[submodule "roles/fuse_overlayfs"]
-	path = roles/fuse_overlayfs
-	url = https://github.com/alvistack/ansible-role-fuse_overlayfs.git
-	branch = develop
 [submodule "roles/gimp"]
 	path = roles/gimp
 	url = https://github.com/alvistack/ansible-role-gimp.git
