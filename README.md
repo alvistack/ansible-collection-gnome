@@ -1,5 +1,7 @@
 # Ansible Collection for Gnome
 
+<img src="/alvistack.svg" width="75" alt="AlviStack">
+
 [![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/ansible-collection-gnome/master)](https://gitlab.com/alvistack/ansible-collection-gnome/-/pipelines)
 [![GitHub release](https://img.shields.io/github/release/alvistack/ansible-collection-gnome.svg)](https://github.com/alvistack/ansible-collection-gnome/releases)
 [![GitHub license](https://img.shields.io/github/license/alvistack/ansible-collection-gnome.svg)](https://github.com/alvistack/ansible-collection-gnome/blob/master/LICENSE)
