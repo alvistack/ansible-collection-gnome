@@ -20,6 +20,11 @@
   tasks:
     - name: include role
       include_role:
+        name: sqlite
+      tags: sqlite
+
+    - name: include role
+      include_role:
         name: bleachbit
       tags: bleachbit
 

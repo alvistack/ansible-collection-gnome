@@ -182,6 +182,10 @@
 	path = roles/skopeo
 	url = https://github.com/alvistack/ansible-role-skopeo.git
 	branch = develop
+[submodule "roles/sqlite"]
+	path = roles/sqlite
+	url = https://github.com/alvistack/ansible-role-sqlite.git
+	branch = develop
 [submodule "roles/sshd"]
 	path = roles/sshd
 	url = https://github.com/alvistack/ansible-role-sshd.git
