@@ -34,18 +34,16 @@ Start by cloning the repository, checkout the corresponding branch, and init wit
     mkdir -p /opt/ansible-collection-gnome
     cd /opt/ansible-collection-gnome
     git init
-    git remote add alvistack https://github.com/alvistack/ansible-collection-gnome.git
+    git remote add upstream https://github.com/alvistack/ansible-collection-gnome.git
     git fetch --all --prune
-    git checkout alvistack/develop -- .
+    git checkout upstream/develop -- .
     git submodule sync --recursive
     git submodule update --init --recursive
     
     # Bootstrap Ansible
     # See https://software.opensuse.org/download/package?package=ansible&project=home%3Aalvistack
-    echo 'deb http://download.opensuse.org/repositories/home:/alvistack/xUbuntu_20.04/ /' | tee /etc/apt
-/sources.list.d/home:alvistack.list
-    curl -fsSL https://download.opensuse.org/repositories/home:alvistack/xUbuntu_20.04/Release.key | gpg
- --dearmor | tee /etc/apt/trusted.gpg.d/home_alvistack.gpg > /dev/null
+    echo 'deb http://download.opensuse.org/repositories/home:/alvistack/xUbuntu_20.04/ /' | tee /etc/apt/sources.list.d/home:alvistack.list
+    curl -fsSL https://download.opensuse.org/repositories/home:alvistack/xUbuntu_20.04/Release.key | gpg --dearmor | tee /etc/apt/trusted.gpg.d/home_alvistack.gpg > /dev/null
     apt update
     apt install ansible
     
