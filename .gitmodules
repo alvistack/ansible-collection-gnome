@@ -54,6 +54,10 @@
 	path = roles/darktable
 	url = https://github.com/alvistack/ansible-role-darktable.git
 	branch = develop
+[submodule "roles/docker"]
+	path = roles/docker
+	url = https://github.com/alvistack/ansible-role-docker.git
+	branch = develop
 [submodule "roles/filezilla"]
 	path = roles/filezilla
 	url = https://github.com/alvistack/ansible-role-filezilla.git
