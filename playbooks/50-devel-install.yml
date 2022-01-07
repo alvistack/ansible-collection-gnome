@@ -30,6 +30,11 @@
 
     - name: include role
       include_role:
+        name: docker
+      tags: docker
+
+    - name: include role
+      include_role:
         name: libvirt
       tags: libvirt
 
