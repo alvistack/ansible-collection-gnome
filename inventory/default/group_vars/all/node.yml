@@ -15,4 +15,4 @@
 # limitations under the License.
 
 # node
-node_release: "14"
+node_release: "16"
