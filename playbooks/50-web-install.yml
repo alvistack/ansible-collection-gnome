@@ -19,16 +19,16 @@
   become: true
   tasks:
     - name: include role
-      include_role:
+      ansible.builtin.include_role:
         name: firefox
       tags: firefox
 
     - name: include role
-      include_role:
+      ansible.builtin.include_role:
         name: chrome
       tags: chrome
 
     - name: include role
-      include_role:
+      ansible.builtin.include_role:
         name: thunderbird
       tags: thunderbird
