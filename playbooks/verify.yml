@@ -19,6 +19,6 @@
   become: true
   tasks:
     - name: gnome-shell --version
-      command: gnome-shell --version
+      ansible.builtin.command: gnome-shell --version
       register: result
       changed_when: result is not succeeded

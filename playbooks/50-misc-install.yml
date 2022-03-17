@@ -19,66 +19,66 @@
   become: true
   tasks:
     - name: include role
-      include_role:
+      ansible.builtin.include_role:
         name: sqlite
       tags: sqlite
 
     - name: include role
-      include_role:
+      ansible.builtin.include_role:
         name: bleachbit
       tags: bleachbit
 
     - name: include role
-      include_role:
+      ansible.builtin.include_role:
         name: restic
       tags: restic
 
     - name: include role
-      include_role:
+      ansible.builtin.include_role:
         name: rclone
       tags: rclone
 
     - name: include role
-      include_role:
+      ansible.builtin.include_role:
         name: uget
       tags: uget
 
     - name: include role
-      include_role:
+      ansible.builtin.include_role:
         name: filezilla
       tags: filezilla
 
     - name: include role
-      include_role:
+      ansible.builtin.include_role:
         name: transmission
       tags: transmission
 
     - name: include role
-      include_role:
+      ansible.builtin.include_role:
         name: teamviewer
       tags: teamviewer
 
     - name: include role
-      include_role:
+      ansible.builtin.include_role:
         name: teams
       tags: teams
 
     - name: include role
-      include_role:
+      ansible.builtin.include_role:
         name: wireguard
       tags: wireguard
 
     - name: include role
-      include_role:
+      ansible.builtin.include_role:
         name: flatpak
       tags: flatpak
 
     - name: include role
-      include_role:
+      ansible.builtin.include_role:
         name: gparted
       tags: gparted
 
     - name: include role
-      include_role:
+      ansible.builtin.include_role:
         name: gnucash
       tags: gnucash

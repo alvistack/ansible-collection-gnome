@@ -19,31 +19,31 @@
   become: true
   tasks:
     - name: include role
-      include_role:
+      ansible.builtin.include_role:
         name: packer
       tags: packer
 
     - name: include role
-      include_role:
+      ansible.builtin.include_role:
         name: vagrant
       tags: vagrant
 
     - name: include role
-      include_role:
+      ansible.builtin.include_role:
         name: docker
       tags: docker
 
     - name: include role
-      include_role:
+      ansible.builtin.include_role:
         name: libvirt
       tags: libvirt
 
     - name: include role
-      include_role:
+      ansible.builtin.include_role:
         name: virtualbox
       tags: virtualbox
 
     - name: include role
-      include_role:
+      ansible.builtin.include_role:
         name: molecule
       tags: molecule

@@ -19,16 +19,16 @@
   become: true
   tasks:
     - name: include role
-      include_role:
+      ansible.builtin.include_role:
         name: audacious
       tags: audacious
 
     - name: include role
-      include_role:
+      ansible.builtin.include_role:
         name: audacity
       tags: audacity
 
     - name: include role
-      include_role:
+      ansible.builtin.include_role:
         name: picard
       tags: picard
