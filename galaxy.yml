@@ -18,7 +18,7 @@ namespace: alvistack
 name: gnome
 description: Ansible Collection for Gnome
 
-version: VERSION
+version: 0.0.0
 readme: README.md
 license: Apache-2.0
 
