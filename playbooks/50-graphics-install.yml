@@ -20,40 +20,40 @@
   tasks:
     - name: include role
       ansible.builtin.include_role:
-        name: obs_studio
-      tags: obs_studio
+        name: alvistack.obs_studio
+      tags: alvistack.obs_studio
 
     - name: include role
       ansible.builtin.include_role:
-        name: blender
-      tags: blender
+        name: alvistack.blender
+      tags: alvistack.blender
 
     - name: include role
       ansible.builtin.include_role:
-        name: gimp
-      tags: gimp
+        name: alvistack.gimp
+      tags: alvistack.gimp
 
     - name: include role
       ansible.builtin.include_role:
-        name: inkscape
-      tags: inkscape
+        name: alvistack.inkscape
+      tags: alvistack.inkscape
 
     - name: include role
       ansible.builtin.include_role:
-        name: scribus
-      tags: scribus
+        name: alvistack.scribus
+      tags: alvistack.scribus
 
     - name: include role
       ansible.builtin.include_role:
-        name: darktable
-      tags: darktable
+        name: alvistack.darktable
+      tags: alvistack.darktable
 
     - name: include role
       ansible.builtin.include_role:
-        name: handbrake
-      tags: handbrake
+        name: alvistack.handbrake
+      tags: alvistack.handbrake
 
     - name: include role
       ansible.builtin.include_role:
-        name: vlc
-      tags: vlc
+        name: alvistack.vlc
+      tags: alvistack.vlc

@@ -20,10 +20,10 @@
   tasks:
     - name: include role
       ansible.builtin.include_role:
-        name: code
-      tags: code
+        name: alvistack.code
+      tags: alvistack.code
 
     - name: include role
       ansible.builtin.include_role:
-        name: libreoffice
-      tags: libreoffice
+        name: alvistack.libreoffice
+      tags: alvistack.libreoffice

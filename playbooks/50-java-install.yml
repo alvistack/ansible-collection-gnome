@@ -20,10 +20,10 @@
   tasks:
     - name: include role
       ansible.builtin.include_role:
-        name: openjdk
-      tags: openjdk
+        name: alvistack.openjdk
+      tags: alvistack.openjdk
 
     - name: include role
       ansible.builtin.include_role:
-        name: owasp_zap
-      tags: owasp_zap
+        name: alvistack.owasp_zap
+      tags: alvistack.owasp_zap
