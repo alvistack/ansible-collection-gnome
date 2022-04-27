@@ -20,5 +20,5 @@
   tasks:
     - name: include role
       ansible.builtin.include_role:
-        name: node
-      tags: node
+        name: alvistack.node
+      tags: alvistack.node

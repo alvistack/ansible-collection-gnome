@@ -20,5 +20,5 @@
   tasks:
     - name: include role
       ansible.builtin.include_role:
-        name: gnome_desktop
-      tags: gnome_desktop
+        name: alvistack.gnome_desktop
+      tags: alvistack.gnome_desktop

@@ -20,15 +20,15 @@
   tasks:
     - name: include role
       ansible.builtin.include_role:
-        name: audacious
-      tags: audacious
+        name: alvistack.audacious
+      tags: alvistack.audacious
 
     - name: include role
       ansible.builtin.include_role:
-        name: audacity
-      tags: audacity
+        name: alvistack.audacity
+      tags: alvistack.audacity
 
     - name: include role
       ansible.builtin.include_role:
-        name: picard
-      tags: picard
+        name: alvistack.picard
+      tags: alvistack.picard
