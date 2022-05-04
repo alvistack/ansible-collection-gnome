@@ -166,10 +166,6 @@
 	path = roles/alvistack.restic
 	url = https://github.com/alvistack/ansible-role-restic.git
 	branch = develop
-[submodule "roles/alvistack.runc"]
-	path = roles/alvistack.runc
-	url = https://github.com/alvistack/ansible-role-runc.git
-	branch = develop
 [submodule "roles/alvistack.scribus"]
 	path = roles/alvistack.scribus
 	url = https://github.com/alvistack/ansible-role-scribus.git
