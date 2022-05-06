@@ -20,5 +20,5 @@
   tasks:
     - name: include role
       ansible.builtin.include_role:
-        name: alvistack.php
-      tags: alvistack.php
+        name: php
+      tags: php

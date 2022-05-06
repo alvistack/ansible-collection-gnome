@@ -20,65 +20,65 @@
   tasks:
     - name: include role
       ansible.builtin.include_role:
-        name: alvistack.sqlite
-      tags: alvistack.sqlite
+        name: sqlite
+      tags: sqlite
 
     - name: include role
       ansible.builtin.include_role:
-        name: alvistack.bleachbit
-      tags: alvistack.bleachbit
+        name: bleachbit
+      tags: bleachbit
 
     - name: include role
       ansible.builtin.include_role:
-        name: alvistack.restic
-      tags: alvistack.restic
+        name: restic
+      tags: restic
 
     - name: include role
       ansible.builtin.include_role:
-        name: alvistack.rclone
-      tags: alvistack.rclone
+        name: rclone
+      tags: rclone
 
     - name: include role
       ansible.builtin.include_role:
-        name: alvistack.uget
-      tags: alvistack.uget
+        name: uget
+      tags: uget
 
     - name: include role
       ansible.builtin.include_role:
-        name: alvistack.filezilla
-      tags: alvistack.filezilla
+        name: filezilla
+      tags: filezilla
 
     - name: include role
       ansible.builtin.include_role:
-        name: alvistack.transmission
-      tags: alvistack.transmission
+        name: transmission
+      tags: transmission
 
     - name: include role
       ansible.builtin.include_role:
-        name: alvistack.teamviewer
-      tags: alvistack.teamviewer
+        name: teamviewer
+      tags: teamviewer
 
     - name: include role
       ansible.builtin.include_role:
-        name: alvistack.teams
-      tags: alvistack.teams
+        name: teams
+      tags: teams
 
     - name: include role
       ansible.builtin.include_role:
-        name: alvistack.wireguard
-      tags: alvistack.wireguard
+        name: wireguard
+      tags: wireguard
 
     - name: include role
       ansible.builtin.include_role:
-        name: alvistack.flatpak
-      tags: alvistack.flatpak
+        name: flatpak
+      tags: flatpak
 
     - name: include role
       ansible.builtin.include_role:
-        name: alvistack.gparted
-      tags: alvistack.gparted
+        name: gparted
+      tags: gparted
 
     - name: include role
       ansible.builtin.include_role:
-        name: alvistack.gnucash
-      tags: alvistack.gnucash
+        name: gnucash
+      tags: gnucash

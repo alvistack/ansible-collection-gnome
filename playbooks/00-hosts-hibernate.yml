@@ -20,5 +20,5 @@
   tasks:
     - name: include role
       ansible.builtin.include_role:
-        name: alvistack.hibernate
-      tags: alvistack.hibernate
+        name: hibernate
+      tags: hibernate

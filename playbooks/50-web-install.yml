@@ -20,15 +20,15 @@
   tasks:
     - name: include role
       ansible.builtin.include_role:
-        name: alvistack.firefox
-      tags: alvistack.firefox
+        name: firefox
+      tags: firefox
 
     - name: include role
       ansible.builtin.include_role:
-        name: alvistack.chrome
-      tags: alvistack.chrome
+        name: chrome
+      tags: chrome
 
     - name: include role
       ansible.builtin.include_role:
-        name: alvistack.thunderbird
-      tags: alvistack.thunderbird
+        name: thunderbird
+      tags: thunderbird

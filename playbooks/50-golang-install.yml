@@ -20,5 +20,5 @@
   tasks:
     - name: include role
       ansible.builtin.include_role:
-        name: alvistack.golang
-      tags: alvistack.golang
+        name: golang
+      tags: golang
