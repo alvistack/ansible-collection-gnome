@@ -14,5 +14,5 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-- name: import playbook 90-ansible-reboot
+- name: import playbook 90-ansible-reboot.yml
   import_playbook: 90-ansible-reboot.yml
