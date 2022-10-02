@@ -20,6 +20,7 @@
   become: true
   tasks:
     - name: gnome-shell --version
-      ansible.builtin.command: gnome-shell --version
+      ansible.builtin.command:
+        cmd: gnome-shell --version
       register: result
       changed_when: result is not succeeded
