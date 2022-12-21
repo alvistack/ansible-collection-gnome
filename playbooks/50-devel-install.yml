@@ -43,3 +43,18 @@
       ansible.builtin.include_role:
         name: molecule
       tags: molecule
+
+    - name: include role
+      ansible.builtin.include_role:
+        name: helm
+      tags: helm
+
+    - name: include role
+      ansible.builtin.include_role:
+        name: operator_sdk
+      tags: operator_sdk
+
+    - name: include role
+      ansible.builtin.include_role:
+        name: osc
+      tags: osc

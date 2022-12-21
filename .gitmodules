@@ -94,6 +94,10 @@
 	path = roles/handbrake
 	url = https://github.com/alvistack/ansible-role-handbrake.git
 	branch = develop
+[submodule "roles/helm"]
+	path = roles/helm
+	url = https://github.com/alvistack/ansible-role-helm.git
+	branch = develop
 [submodule "roles/hibernate"]
 	path = roles/hibernate
 	url = https://github.com/alvistack/ansible-role-hibernate.git
@@ -133,6 +137,14 @@
 [submodule "roles/openjdk"]
 	path = roles/openjdk
 	url = https://github.com/alvistack/ansible-role-openjdk.git
+	branch = develop
+[submodule "roles/operator_sdk"]
+	path = roles/operator_sdk
+	url = https://github.com/alvistack/ansible-role-operator_sdk.git
+	branch = develop
+[submodule "roles/osc"]
+	path = roles/osc
+	url = https://github.com/alvistack/ansible-role-osc.git
 	branch = develop
 [submodule "roles/owasp_zap"]
 	path = roles/owasp_zap
