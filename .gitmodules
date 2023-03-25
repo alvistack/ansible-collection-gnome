@@ -194,10 +194,6 @@
 	path = roles/sshd
 	url = https://github.com/alvistack/ansible-role-sshd.git
 	branch = develop
-[submodule "roles/teams"]
-	path = roles/teams
-	url = https://github.com/alvistack/ansible-role-teams.git
-	branch = develop
 [submodule "roles/teamviewer"]
 	path = roles/teamviewer
 	url = https://github.com/alvistack/ansible-role-teamviewer.git

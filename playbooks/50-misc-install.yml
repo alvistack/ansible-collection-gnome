@@ -61,11 +61,6 @@
 
     - name: include role
       ansible.builtin.include_role:
-        name: teams
-      tags: teams
-
-    - name: include role
-      ansible.builtin.include_role:
         name: wireguard
       tags: wireguard
 
