@@ -23,3 +23,8 @@
       ansible.builtin.include_role:
         name: gnome_desktop
       tags: gnome_desktop
+    
+    - name: include role
+      ansible.builtin.include_role:
+        name: flatpak
+      tags: flatpak
