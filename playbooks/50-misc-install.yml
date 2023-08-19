@@ -66,11 +66,6 @@
 
     - name: include role
       ansible.builtin.include_role:
-        name: flatpak
-      tags: flatpak
-
-    - name: include role
-      ansible.builtin.include_role:
         name: gparted
       tags: gparted
 
