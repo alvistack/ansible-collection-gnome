@@ -194,6 +194,10 @@
 	path = roles/scribus
 	url = https://github.com/alvistack/ansible-role-scribus.git
 	branch = develop
+[submodule "roles/simple_scan"]
+	path = roles/simple_scan
+	url = https://github.com/alvistack/ansible-role-simple_scan.git
+	branch = develop
 [submodule "roles/skopeo"]
 	path = roles/skopeo
 	url = https://github.com/alvistack/ansible-role-skopeo.git
