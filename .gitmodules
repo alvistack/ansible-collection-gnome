@@ -246,3 +246,7 @@
 	path = roles/remmina
 	url = https://github.com/alvistack/ansible-role-remmina.git
 	branch = develop
+[submodule "roles/evince"]
+	path = roles/evince
+	url = https://github.com/alvistack/ansible-role-evince.git
+	branch = develop

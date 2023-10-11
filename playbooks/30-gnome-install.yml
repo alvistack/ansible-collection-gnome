@@ -31,5 +31,10 @@
 
     - name: include role
       ansible.builtin.include_role:
+        name: evince
+      tags: evince
+
+    - name: include role
+      ansible.builtin.include_role:
         name: remmina
       tags: remmina
