@@ -242,3 +242,7 @@
 	path = roles/zram_generator
 	url = https://github.com/alvistack/ansible-role-zram_generator.git
 	branch = develop
+[submodule "roles/remmina"]
+	path = roles/remmina
+	url = https://github.com/alvistack/ansible-role-remmina.git
+	branch = develop
