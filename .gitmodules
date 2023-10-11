@@ -10,6 +10,10 @@
 	path = roles/audacity
 	url = https://github.com/alvistack/ansible-role-audacity.git
 	branch = develop
+[submodule "roles/baobab"]
+	path = roles/baobab
+	url = https://github.com/alvistack/ansible-role-baobab.git
+	branch = develop
 [submodule "roles/bleachbit"]
 	path = roles/bleachbit
 	url = https://github.com/alvistack/ansible-role-bleachbit.git
@@ -53,6 +57,10 @@
 [submodule "roles/darktable"]
 	path = roles/darktable
 	url = https://github.com/alvistack/ansible-role-darktable.git
+	branch = develop
+[submodule "roles/evince"]
+	path = roles/evince
+	url = https://github.com/alvistack/ansible-role-evince.git
 	branch = develop
 [submodule "roles/filezilla"]
 	path = roles/filezilla
@@ -174,6 +182,10 @@
 	path = roles/rclone
 	url = https://github.com/alvistack/ansible-role-rclone.git
 	branch = develop
+[submodule "roles/remmina"]
+	path = roles/remmina
+	url = https://github.com/alvistack/ansible-role-remmina.git
+	branch = develop
 [submodule "roles/restic"]
 	path = roles/restic
 	url = https://github.com/alvistack/ansible-role-restic.git
@@ -241,12 +253,4 @@
 [submodule "roles/zram_generator"]
 	path = roles/zram_generator
 	url = https://github.com/alvistack/ansible-role-zram_generator.git
-	branch = develop
-[submodule "roles/remmina"]
-	path = roles/remmina
-	url = https://github.com/alvistack/ansible-role-remmina.git
-	branch = develop
-[submodule "roles/evince"]
-	path = roles/evince
-	url = https://github.com/alvistack/ansible-role-evince.git
 	branch = develop

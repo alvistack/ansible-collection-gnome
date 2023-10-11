@@ -31,6 +31,11 @@
 
     - name: include role
       ansible.builtin.include_role:
+        name: baobab
+      tags: baobab
+
+    - name: include role
+      ansible.builtin.include_role:
         name: evince
       tags: evince
 
