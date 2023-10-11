@@ -58,6 +58,10 @@
 	path = roles/darktable
 	url = https://github.com/alvistack/ansible-role-darktable.git
 	branch = develop
+[submodule "roles/eog"]
+	path = roles/eog
+	url = https://github.com/alvistack/ansible-role-eog.git
+	branch = develop
 [submodule "roles/evince"]
 	path = roles/evince
 	url = https://github.com/alvistack/ansible-role-evince.git

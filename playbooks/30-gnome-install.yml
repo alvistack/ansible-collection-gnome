@@ -36,6 +36,11 @@
 
     - name: include role
       ansible.builtin.include_role:
+        name: eog
+      tags: eog
+
+    - name: include role
+      ansible.builtin.include_role:
         name: evince
       tags: evince
 
