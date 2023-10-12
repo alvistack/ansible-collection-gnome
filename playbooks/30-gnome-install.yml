@@ -23,8 +23,33 @@
       ansible.builtin.include_role:
         name: gnome_desktop
       tags: gnome_desktop
-    
+
     - name: include role
       ansible.builtin.include_role:
         name: flatpak
       tags: flatpak
+
+    - name: include role
+      ansible.builtin.include_role:
+        name: baobab
+      tags: baobab
+
+    - name: include role
+      ansible.builtin.include_role:
+        name: eog
+      tags: eog
+
+    - name: include role
+      ansible.builtin.include_role:
+        name: evince
+      tags: evince
+
+    - name: include role
+      ansible.builtin.include_role:
+        name: remmina
+      tags: remmina
+
+    - name: include role
+      ansible.builtin.include_role:
+        name: simple_scan
+      tags: simple_scan
