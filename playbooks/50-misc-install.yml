@@ -66,6 +66,11 @@
 
     - name: include role
       ansible.builtin.include_role:
+        name: zoom
+      tags: zoom
+
+    - name: include role
+      ansible.builtin.include_role:
         name: wireguard
       tags: wireguard
 

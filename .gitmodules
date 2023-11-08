@@ -258,6 +258,10 @@
 	path = roles/wireguard
 	url = https://github.com/alvistack/ansible-role-wireguard.git
 	branch = develop
+[submodule "roles/zoom"]
+	path = roles/zoom
+	url = https://github.com/alvistack/ansible-role-zoom.git
+	branch = develop
 [submodule "roles/zram_generator"]
 	path = roles/zram_generator
 	url = https://github.com/alvistack/ansible-role-zram_generator.git
