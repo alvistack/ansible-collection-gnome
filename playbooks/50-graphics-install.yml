@@ -22,39 +22,31 @@
     - name: include role
       ansible.builtin.include_role:
         name: obs_studio
-      tags: obs_studio
 
     - name: include role
       ansible.builtin.include_role:
         name: blender
-      tags: blender
 
     - name: include role
       ansible.builtin.include_role:
         name: gimp
-      tags: gimp
 
     - name: include role
       ansible.builtin.include_role:
         name: inkscape
-      tags: inkscape
 
     - name: include role
       ansible.builtin.include_role:
         name: scribus
-      tags: scribus
 
     - name: include role
       ansible.builtin.include_role:
         name: darktable
-      tags: darktable
 
     - name: include role
       ansible.builtin.include_role:
         name: handbrake
-      tags: handbrake
 
     - name: include role
       ansible.builtin.include_role:
         name: vlc
-      tags: vlc

@@ -22,9 +22,7 @@
     - name: include role
       ansible.builtin.include_role:
         name: openjdk
-      tags: openjdk
 
     - name: include role
       ansible.builtin.include_role:
         name: owasp_zap
-      tags: owasp_zap

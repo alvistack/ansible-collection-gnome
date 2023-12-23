@@ -22,14 +22,11 @@
     - name: include role
       ansible.builtin.include_role:
         name: firefox
-      tags: firefox
 
     - name: include role
       ansible.builtin.include_role:
         name: chrome
-      tags: chrome
 
     - name: include role
       ansible.builtin.include_role:
         name: thunderbird
-      tags: thunderbird
