@@ -22,14 +22,11 @@
     - name: include role
       ansible.builtin.include_role:
         name: audacious
-      tags: audacious
 
     - name: include role
       ansible.builtin.include_role:
         name: audacity
-      tags: audacity
 
     - name: include role
       ansible.builtin.include_role:
         name: picard
-      tags: picard

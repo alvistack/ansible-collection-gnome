@@ -22,64 +22,51 @@
     - name: include role
       ansible.builtin.include_role:
         name: sqlite
-      tags: sqlite
 
     - name: include role
       ansible.builtin.include_role:
         name: bleachbit
-      tags: bleachbit
 
     - name: include role
       ansible.builtin.include_role:
         name: restic
-      tags: restic
 
     - name: include role
       ansible.builtin.include_role:
         name: rclone
-      tags: rclone
 
     - name: include role
       ansible.builtin.include_role:
         name: uget
-      tags: uget
 
     - name: include role
       ansible.builtin.include_role:
         name: filezilla
-      tags: filezilla
 
     - name: include role
       ansible.builtin.include_role:
         name: transmission
-      tags: transmission
 
     - name: include role
       ansible.builtin.include_role:
         name: teamviewer
-      tags: teamviewer
 
     - name: include role
       ansible.builtin.include_role:
         name: teams
-      tags: teams
 
     - name: include role
       ansible.builtin.include_role:
         name: zoom
-      tags: zoom
 
     - name: include role
       ansible.builtin.include_role:
         name: wireguard
-      tags: wireguard
 
     - name: include role
       ansible.builtin.include_role:
         name: gparted
-      tags: gparted
 
     - name: include role
       ansible.builtin.include_role:
         name: gnucash
-      tags: gnucash

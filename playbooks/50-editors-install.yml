@@ -22,9 +22,7 @@
     - name: include role
       ansible.builtin.include_role:
         name: code
-      tags: code
 
     - name: include role
       ansible.builtin.include_role:
         name: libreoffice
-      tags: libreoffice
