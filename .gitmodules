@@ -266,3 +266,7 @@
 	path = roles/zram_generator
 	url = https://github.com/alvistack/ansible-role-zram_generator.git
 	branch = develop
+[submodule "roles/flatpak_virt_manager"]
+	path = roles/flatpak_virt_manager
+	url = https://github.com/alvistack/ansible-role-flatpak_virt_manager.git
+	branch = develop
