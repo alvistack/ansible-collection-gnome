@@ -56,7 +56,7 @@
 
     - name: include role
       ansible.builtin.include_role:
-        name: zoom
+        name: flatpak_zoom
 
     - name: include role
       ansible.builtin.include_role:

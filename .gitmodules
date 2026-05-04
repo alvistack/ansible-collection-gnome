@@ -146,10 +146,6 @@
 	path = roles/wireguard
 	url = https://github.com/alvistack/ansible-role-wireguard.git
 	branch = develop
-[submodule "roles/zoom"]
-	path = roles/zoom
-	url = https://github.com/alvistack/ansible-role-zoom.git
-	branch = develop
 [submodule "roles/zram_generator"]
 	path = roles/zram_generator
 	url = https://github.com/alvistack/ansible-role-zram_generator.git
@@ -273,4 +269,8 @@
 [submodule "roles/flatpak_vlc"]
 	path = roles/flatpak_vlc
 	url = https://github.com/alvistack/ansible-role-flatpak_vlc
+	branch = develop
+[submodule "roles/flatpak_zoom"]
+	path = roles/flatpak_zoom
+	url = https://github.com/alvistack/ansible-role-flatpak_zoom
 	branch = develop
