@@ -24,7 +24,7 @@
 
     - name: include role
       ansible.builtin.include_role:
-        name: chrome
+        name: flatpak_chrome
 
     - name: include role
       ansible.builtin.include_role:
