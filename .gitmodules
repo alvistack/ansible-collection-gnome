@@ -2,10 +2,6 @@
 	path = roles/ansible
 	url = https://github.com/alvistack/ansible-role-ansible.git
 	branch = develop
-[submodule "roles/audacity"]
-	path = roles/audacity
-	url = https://github.com/alvistack/ansible-role-audacity.git
-	branch = develop
 [submodule "roles/baobab"]
 	path = roles/baobab
 	url = https://github.com/alvistack/ansible-role-baobab.git
@@ -273,4 +269,8 @@
 [submodule "roles/flatpak_audacious"]
 	path = roles/flatpak_audacious
 	url = https://github.com/alvistack/ansible-role-flatpak_audacious.git
+	branch = develop
+[submodule "roles/flatpak_audacity"]
+	path = roles/flatpak_audacity
+	url = https://github.com/alvistack/ansible-role-flatpak_audacity.git
 	branch = develop
