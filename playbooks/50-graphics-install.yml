@@ -48,4 +48,4 @@
 
     - name: include role
       ansible.builtin.include_role:
-        name: vlc
+        name: flatpak_vlc

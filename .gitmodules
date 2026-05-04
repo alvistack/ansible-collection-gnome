@@ -142,10 +142,6 @@
 	path = roles/virtualbox
 	url = https://github.com/alvistack/ansible-role-virtualbox.git
 	branch = develop
-[submodule "roles/vlc"]
-	path = roles/vlc
-	url = https://github.com/alvistack/ansible-role-vlc.git
-	branch = develop
 [submodule "roles/wireguard"]
 	path = roles/wireguard
 	url = https://github.com/alvistack/ansible-role-wireguard.git
@@ -273,4 +269,8 @@
 [submodule "roles/flatpak_uget"]
 	path = roles/flatpak_uget
 	url = https://github.com/alvistack/ansible-role-flatpak_uget
+	branch = develop
+[submodule "roles/flatpak_vlc"]
+	path = roles/flatpak_vlc
+	url = https://github.com/alvistack/ansible-role-flatpak_vlc
 	branch = develop
