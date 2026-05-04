@@ -106,10 +106,6 @@
 	path = roles/rclone
 	url = https://github.com/alvistack/ansible-role-rclone.git
 	branch = develop
-[submodule "roles/remmina"]
-	path = roles/remmina
-	url = https://github.com/alvistack/ansible-role-remmina.git
-	branch = develop
 [submodule "roles/restic"]
 	path = roles/restic
 	url = https://github.com/alvistack/ansible-role-restic.git
@@ -273,4 +269,8 @@
 [submodule "roles/flatpak_picard"]
 	path = roles/flatpak_picard
 	url = https://github.com/alvistack/ansible-role-flatpak_picard
+	branch = develop
+[submodule "roles/flatpak_remmina"]
+	path = roles/flatpak_remmina
+	url = https://github.com/alvistack/ansible-role-flatpak_remmina
 	branch = develop

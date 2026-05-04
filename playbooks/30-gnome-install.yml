@@ -40,7 +40,7 @@
 
     - name: include role
       ansible.builtin.include_role:
-        name: remmina
+        name: flatpak_remmina
 
     - name: include role
       ansible.builtin.include_role:
