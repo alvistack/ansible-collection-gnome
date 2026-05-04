@@ -270,3 +270,7 @@
 	path = roles/flatpak_virt_manager
 	url = https://github.com/alvistack/ansible-role-flatpak_virt_manager.git
 	branch = develop
+[submodule "roles/openconnect"]
+	path = roles/openconnect
+	url = https://github.com/alvistack/ansible-role-openconnect.git
+	branch = develop
