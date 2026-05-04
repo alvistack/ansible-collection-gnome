@@ -28,4 +28,4 @@
 
     - name: include role
       ansible.builtin.include_role:
-        name: thunderbird
+        name: flatpak_thunderbird

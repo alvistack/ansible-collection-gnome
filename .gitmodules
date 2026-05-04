@@ -126,10 +126,6 @@
 	path = roles/teamviewer
 	url = https://github.com/alvistack/ansible-role-teamviewer.git
 	branch = develop
-[submodule "roles/thunderbird"]
-	path = roles/thunderbird
-	url = https://github.com/alvistack/ansible-role-thunderbird.git
-	branch = develop
 [submodule "roles/timezone"]
 	path = roles/timezone
 	url = https://github.com/alvistack/ansible-role-timezone.git
@@ -273,4 +269,8 @@
 [submodule "roles/flatpak_teams"]
 	path = roles/flatpak_teams
 	url = https://github.com/alvistack/ansible-role-flatpak_teams
+	branch = develop
+[submodule "roles/flatpak_thunderbird"]
+	path = roles/flatpak_thunderbird
+	url = https://github.com/alvistack/ansible-role-flatpak_thunderbird
 	branch = develop
