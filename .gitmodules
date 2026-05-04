@@ -6,10 +6,6 @@
 	path = roles/baobab
 	url = https://github.com/alvistack/ansible-role-baobab.git
 	branch = develop
-[submodule "roles/blender"]
-	path = roles/blender
-	url = https://github.com/alvistack/ansible-role-blender.git
-	branch = develop
 [submodule "roles/bootstrap"]
 	path = roles/bootstrap
 	url = https://github.com/alvistack/ansible-role-bootstrap.git
@@ -273,4 +269,8 @@
 [submodule "roles/flatpak_bleachbit"]
 	path = roles/flatpak_bleachbit
 	url = https://github.com/alvistack/ansible-role-flatpak_bleachbit.git
+	branch = develop
+[submodule "roles/flatpak_blender"]
+	path = roles/flatpak_blender
+	url = https://github.com/alvistack/ansible-role-flatpak_blender.git
 	branch = develop

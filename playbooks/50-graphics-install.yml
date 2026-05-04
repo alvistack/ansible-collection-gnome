@@ -24,7 +24,7 @@
 
     - name: include role
       ansible.builtin.include_role:
-        name: blender
+        name: flatpak_blender
 
     - name: include role
       ansible.builtin.include_role:
