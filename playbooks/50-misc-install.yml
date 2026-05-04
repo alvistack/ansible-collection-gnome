@@ -52,7 +52,7 @@
 
     - name: include role
       ansible.builtin.include_role:
-        name: teams
+        name: flatpak_teams
 
     - name: include role
       ansible.builtin.include_role:

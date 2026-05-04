@@ -122,10 +122,6 @@
 	path = roles/sshd
 	url = https://github.com/alvistack/ansible-role-sshd.git
 	branch = develop
-[submodule "roles/teams"]
-	path = roles/teams
-	url = https://github.com/alvistack/ansible-role-teams.git
-	branch = develop
 [submodule "roles/teamviewer"]
 	path = roles/teamviewer
 	url = https://github.com/alvistack/ansible-role-teamviewer.git
@@ -273,4 +269,8 @@
 [submodule "roles/flatpak_simple_scan"]
 	path = roles/flatpak_simple_scan
 	url = https://github.com/alvistack/ansible-role-flatpak_simple_scan
+	branch = develop
+[submodule "roles/flatpak_teams"]
+	path = roles/flatpak_teams
+	url = https://github.com/alvistack/ansible-role-flatpak_teams
 	branch = develop
