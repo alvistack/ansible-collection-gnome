@@ -30,10 +30,6 @@
 	path = roles/flatpak
 	url = https://github.com/alvistack/ansible-role-flatpak.git
 	branch = develop
-[submodule "roles/gimp"]
-	path = roles/gimp
-	url = https://github.com/alvistack/ansible-role-gimp.git
-	branch = develop
 [submodule "roles/git"]
 	path = roles/git
 	url = https://github.com/alvistack/ansible-role-git.git
@@ -273,4 +269,8 @@
 [submodule "roles/flatpak_firefox"]
 	path = roles/flatpak_firefox
 	url = https://github.com/alvistack/ansible-role-flatpak_firefox
+	branch = develop
+[submodule "roles/flatpak_gimp"]
+	path = roles/flatpak_gimp
+	url = https://github.com/alvistack/ansible-role-flatpak_gimp
 	branch = develop

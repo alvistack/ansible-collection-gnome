@@ -28,7 +28,7 @@
 
     - name: include role
       ansible.builtin.include_role:
-        name: gimp
+        name: flatpak_gimp
 
     - name: include role
       ansible.builtin.include_role:
