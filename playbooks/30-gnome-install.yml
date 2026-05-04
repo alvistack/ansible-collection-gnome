@@ -44,4 +44,4 @@
 
     - name: include role
       ansible.builtin.include_role:
-        name: simple_scan
+        name: flatpak_simple_scan

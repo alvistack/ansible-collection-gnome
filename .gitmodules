@@ -110,10 +110,6 @@
 	path = roles/restic
 	url = https://github.com/alvistack/ansible-role-restic.git
 	branch = develop
-[submodule "roles/simple_scan"]
-	path = roles/simple_scan
-	url = https://github.com/alvistack/ansible-role-simple_scan.git
-	branch = develop
 [submodule "roles/skopeo"]
 	path = roles/skopeo
 	url = https://github.com/alvistack/ansible-role-skopeo.git
@@ -273,4 +269,8 @@
 [submodule "roles/flatpak_scribus"]
 	path = roles/flatpak_scribus
 	url = https://github.com/alvistack/ansible-role-flatpak_scribus
+	branch = develop
+[submodule "roles/flatpak_simple_scan"]
+	path = roles/flatpak_simple_scan
+	url = https://github.com/alvistack/ansible-role-flatpak_simple_scan
 	branch = develop
