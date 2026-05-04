@@ -44,7 +44,7 @@
 
     - name: include role
       ansible.builtin.include_role:
-        name: transmission
+        name: flatpak_transmission
 
     - name: include role
       ansible.builtin.include_role:

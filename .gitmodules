@@ -130,10 +130,6 @@
 	path = roles/timezone
 	url = https://github.com/alvistack/ansible-role-timezone.git
 	branch = develop
-[submodule "roles/transmission"]
-	path = roles/transmission
-	url = https://github.com/alvistack/ansible-role-transmission.git
-	branch = develop
 [submodule "roles/uget"]
 	path = roles/uget
 	url = https://github.com/alvistack/ansible-role-uget.git
@@ -273,4 +269,8 @@
 [submodule "roles/flatpak_thunderbird"]
 	path = roles/flatpak_thunderbird
 	url = https://github.com/alvistack/ansible-role-flatpak_thunderbird
+	branch = develop
+[submodule "roles/flatpak_transmission"]
+	path = roles/flatpak_transmission
+	url = https://github.com/alvistack/ansible-role-flatpak_transmission
 	branch = develop
