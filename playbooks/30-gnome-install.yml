@@ -28,7 +28,7 @@
 
     - name: include role
       ansible.builtin.include_role:
-        name: baobab
+        name: flatpak_baobab
 
     - name: include role
       ansible.builtin.include_role:
