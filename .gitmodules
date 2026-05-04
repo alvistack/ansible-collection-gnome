@@ -54,10 +54,6 @@
 	path = roles/hibernate
 	url = https://github.com/alvistack/ansible-role-hibernate.git
 	branch = develop
-[submodule "roles/inkscape"]
-	path = roles/inkscape
-	url = https://github.com/alvistack/ansible-role-inkscape.git
-	branch = develop
 [submodule "roles/kernel"]
 	path = roles/kernel
 	url = https://github.com/alvistack/ansible-role-kernel.git
@@ -273,4 +269,8 @@
 [submodule "roles/flatpak_handbrake"]
 	path = roles/flatpak_handbrake
 	url = https://github.com/alvistack/ansible-role-flatpak_handbrake
+	branch = develop
+[submodule "roles/flatpak_inkscape"]
+	path = roles/flatpak_inkscape
+	url = https://github.com/alvistack/ansible-role-flatpak_inkscape
 	branch = develop

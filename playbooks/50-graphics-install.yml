@@ -32,7 +32,7 @@
 
     - name: include role
       ansible.builtin.include_role:
-        name: inkscape
+        name: flatpak_inkscape
 
     - name: include role
       ansible.builtin.include_role:
