@@ -36,7 +36,7 @@
 
     - name: include role
       ansible.builtin.include_role:
-        name: evince
+        name: flatpak_evince
 
     - name: include role
       ansible.builtin.include_role:
