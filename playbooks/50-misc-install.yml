@@ -24,7 +24,7 @@
 
     - name: include role
       ansible.builtin.include_role:
-        name: bleachbit
+        name: flatpak_bleachbit
 
     - name: include role
       ansible.builtin.include_role:
