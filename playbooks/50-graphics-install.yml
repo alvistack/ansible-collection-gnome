@@ -36,7 +36,7 @@
 
     - name: include role
       ansible.builtin.include_role:
-        name: scribus
+        name: flatpak_scribus
 
     - name: include role
       ansible.builtin.include_role:
