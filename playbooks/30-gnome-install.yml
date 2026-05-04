@@ -32,7 +32,7 @@
 
     - name: include role
       ansible.builtin.include_role:
-        name: eog
+        name: flatpak_eog
 
     - name: include role
       ansible.builtin.include_role:
