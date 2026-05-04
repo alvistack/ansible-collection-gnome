@@ -36,7 +36,7 @@
 
     - name: include role
       ansible.builtin.include_role:
-        name: uget
+        name: flatpak_uget
 
     - name: include role
       ansible.builtin.include_role:
