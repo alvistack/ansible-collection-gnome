@@ -44,7 +44,7 @@
 
     - name: include role
       ansible.builtin.include_role:
-        name: handbrake
+        name: flatpak_handbrake
 
     - name: include role
       ansible.builtin.include_role:

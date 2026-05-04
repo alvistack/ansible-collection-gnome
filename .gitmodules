@@ -46,10 +46,6 @@
 	path = roles/gparted
 	url = https://github.com/alvistack/ansible-role-gparted.git
 	branch = develop
-[submodule "roles/handbrake"]
-	path = roles/handbrake
-	url = https://github.com/alvistack/ansible-role-handbrake.git
-	branch = develop
 [submodule "roles/helm"]
 	path = roles/helm
 	url = https://github.com/alvistack/ansible-role-helm.git
@@ -273,4 +269,8 @@
 [submodule "roles/flatpak_gnucash"]
 	path = roles/flatpak_gnucash
 	url = https://github.com/alvistack/ansible-role-flatpak_gnucash
+	branch = develop
+[submodule "roles/flatpak_handbrake"]
+	path = roles/flatpak_handbrake
+	url = https://github.com/alvistack/ansible-role-flatpak_handbrake
 	branch = develop
