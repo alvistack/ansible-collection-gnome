@@ -10,10 +10,6 @@
 	path = roles/buildah
 	url = https://github.com/alvistack/ansible-role-buildah.git
 	branch = develop
-[submodule "roles/code"]
-	path = roles/code
-	url = https://github.com/alvistack/ansible-role-code.git
-	branch = develop
 [submodule "roles/conmon"]
 	path = roles/conmon
 	url = https://github.com/alvistack/ansible-role-conmon.git
@@ -273,4 +269,8 @@
 [submodule "roles/flatpak_chrome"]
 	path = roles/flatpak_chrome
 	url = https://github.com/alvistack/ansible-role-flatpak_chrome
+	branch = develop
+[submodule "roles/flatpak_code"]
+	path = roles/flatpak_code
+	url = https://github.com/alvistack/ansible-role-flatpak_code
 	branch = develop
