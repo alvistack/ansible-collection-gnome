@@ -72,4 +72,4 @@
 
     - name: include role
       ansible.builtin.include_role:
-        name: gnucash
+        name: flatpak_gnucash

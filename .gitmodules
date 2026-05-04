@@ -38,10 +38,6 @@
 	path = roles/gnome_desktop
 	url = https://github.com/alvistack/ansible-role-gnome_desktop.git
 	branch = develop
-[submodule "roles/gnucash"]
-	path = roles/gnucash
-	url = https://github.com/alvistack/ansible-role-gnucash.git
-	branch = develop
 [submodule "roles/golang"]
 	path = roles/golang
 	url = https://github.com/alvistack/ansible-role-golang.git
@@ -273,4 +269,8 @@
 [submodule "roles/flatpak_gimp"]
 	path = roles/flatpak_gimp
 	url = https://github.com/alvistack/ansible-role-flatpak_gimp
+	branch = develop
+[submodule "roles/flatpak_gnucash"]
+	path = roles/flatpak_gnucash
+	url = https://github.com/alvistack/ansible-role-flatpak_gnucash
 	branch = develop
