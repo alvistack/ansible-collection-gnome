@@ -40,7 +40,7 @@
 
     - name: include role
       ansible.builtin.include_role:
-        name: darktable
+        name: flatpak_darktable
 
     - name: include role
       ansible.builtin.include_role:

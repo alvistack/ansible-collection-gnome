@@ -26,10 +26,6 @@
 	path = roles/crun
 	url = https://github.com/alvistack/ansible-role-crun.git
 	branch = develop
-[submodule "roles/darktable"]
-	path = roles/darktable
-	url = https://github.com/alvistack/ansible-role-darktable.git
-	branch = develop
 [submodule "roles/eog"]
 	path = roles/eog
 	url = https://github.com/alvistack/ansible-role-eog.git
@@ -273,4 +269,8 @@
 [submodule "roles/flatpak_code"]
 	path = roles/flatpak_code
 	url = https://github.com/alvistack/ansible-role-flatpak_code
+	branch = develop
+[submodule "roles/flatpak_darktable"]
+	path = roles/flatpak_darktable
+	url = https://github.com/alvistack/ansible-role-flatpak_darktable
 	branch = develop
