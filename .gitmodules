@@ -58,10 +58,6 @@
 	path = roles/kernel
 	url = https://github.com/alvistack/ansible-role-kernel.git
 	branch = develop
-[submodule "roles/libreoffice"]
-	path = roles/libreoffice
-	url = https://github.com/alvistack/ansible-role-libreoffice.git
-	branch = develop
 [submodule "roles/libvirt"]
 	path = roles/libvirt
 	url = https://github.com/alvistack/ansible-role-libvirt.git
@@ -273,4 +269,8 @@
 [submodule "roles/flatpak_inkscape"]
 	path = roles/flatpak_inkscape
 	url = https://github.com/alvistack/ansible-role-flatpak_inkscape
+	branch = develop
+[submodule "roles/flatpak_libreoffice"]
+	path = roles/flatpak_libreoffice
+	url = https://github.com/alvistack/ansible-role-flatpak_libreoffice
 	branch = develop

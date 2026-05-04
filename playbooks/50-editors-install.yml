@@ -24,4 +24,4 @@
 
     - name: include role
       ansible.builtin.include_role:
-        name: libreoffice
+        name: flatpak_libreoffice
