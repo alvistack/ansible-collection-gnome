@@ -26,10 +26,6 @@
 	path = roles/crun
 	url = https://github.com/alvistack/ansible-role-crun.git
 	branch = develop
-[submodule "roles/filezilla"]
-	path = roles/filezilla
-	url = https://github.com/alvistack/ansible-role-filezilla.git
-	branch = develop
 [submodule "roles/firefox"]
 	path = roles/firefox
 	url = https://github.com/alvistack/ansible-role-firefox.git
@@ -273,4 +269,8 @@
 [submodule "roles/flatpak_evince"]
 	path = roles/flatpak_evince
 	url = https://github.com/alvistack/ansible-role-flatpak_evince
+	branch = develop
+[submodule "roles/flatpak_filezilla"]
+	path = roles/flatpak_filezilla
+	url = https://github.com/alvistack/ansible-role-flatpak_filezilla
 	branch = develop

@@ -40,7 +40,7 @@
 
     - name: include role
       ansible.builtin.include_role:
-        name: filezilla
+        name: flatpak_filezilla
 
     - name: include role
       ansible.builtin.include_role:
