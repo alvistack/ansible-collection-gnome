@@ -86,10 +86,6 @@
 	path = roles/osc
 	url = https://github.com/alvistack/ansible-role-osc.git
 	branch = develop
-[submodule "roles/owasp_zap"]
-	path = roles/owasp_zap
-	url = https://github.com/alvistack/ansible-role-owasp_zap.git
-	branch = develop
 [submodule "roles/packer"]
 	path = roles/packer
 	url = https://github.com/alvistack/ansible-role-packer.git
@@ -273,4 +269,8 @@
 [submodule "roles/flatpak_obs_studio"]
 	path = roles/flatpak_obs_studio
 	url = https://github.com/alvistack/ansible-role-flatpak_obs_studio
+	branch = develop
+[submodule "roles/flatpak_owasp_zap"]
+	path = roles/flatpak_owasp_zap
+	url = https://github.com/alvistack/ansible-role-flatpak_owasp_zap
 	branch = develop

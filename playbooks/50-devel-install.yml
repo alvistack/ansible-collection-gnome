@@ -53,3 +53,7 @@
     - name: include role
       ansible.builtin.include_role:
         name: osc
+
+    - name: include role
+      ansible.builtin.include_role:
+        name: flatpak_owasp_zap
