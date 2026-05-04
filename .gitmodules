@@ -94,10 +94,6 @@
 	path = roles/php
 	url = https://github.com/alvistack/ansible-role-php.git
 	branch = develop
-[submodule "roles/picard"]
-	path = roles/picard
-	url = https://github.com/alvistack/ansible-role-picard.git
-	branch = develop
 [submodule "roles/podman"]
 	path = roles/podman
 	url = https://github.com/alvistack/ansible-role-podman.git
@@ -273,4 +269,8 @@
 [submodule "roles/flatpak_owasp_zap"]
 	path = roles/flatpak_owasp_zap
 	url = https://github.com/alvistack/ansible-role-flatpak_owasp_zap
+	branch = develop
+[submodule "roles/flatpak_picard"]
+	path = roles/flatpak_picard
+	url = https://github.com/alvistack/ansible-role-flatpak_picard
 	branch = develop
