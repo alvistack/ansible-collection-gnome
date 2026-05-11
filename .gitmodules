@@ -30,6 +30,126 @@
 	path = roles/flatpak
 	url = https://github.com/alvistack/ansible-role-flatpak.git
 	branch = develop
+[submodule "roles/flatpak_audacious"]
+	path = roles/flatpak_audacious
+	url = https://github.com/alvistack/ansible-role-flatpak_audacious.git
+	branch = develop
+[submodule "roles/flatpak_audacity"]
+	path = roles/flatpak_audacity
+	url = https://github.com/alvistack/ansible-role-flatpak_audacity.git
+	branch = develop
+[submodule "roles/flatpak_baobab"]
+	path = roles/flatpak_baobab
+	url = https://github.com/alvistack/ansible-role-flatpak_baobab.git
+	branch = develop
+[submodule "roles/flatpak_bleachbit"]
+	path = roles/flatpak_bleachbit
+	url = https://github.com/alvistack/ansible-role-flatpak_bleachbit.git
+	branch = develop
+[submodule "roles/flatpak_blender"]
+	path = roles/flatpak_blender
+	url = https://github.com/alvistack/ansible-role-flatpak_blender.git
+	branch = develop
+[submodule "roles/flatpak_chrome"]
+	path = roles/flatpak_chrome
+	url = https://github.com/alvistack/ansible-role-flatpak_chrome.git
+	branch = develop
+[submodule "roles/flatpak_code"]
+	path = roles/flatpak_code
+	url = https://github.com/alvistack/ansible-role-flatpak_code.git
+	branch = develop
+[submodule "roles/flatpak_darktable"]
+	path = roles/flatpak_darktable
+	url = https://github.com/alvistack/ansible-role-flatpak_darktable.git
+	branch = develop
+[submodule "roles/flatpak_eog"]
+	path = roles/flatpak_eog
+	url = https://github.com/alvistack/ansible-role-flatpak_eog.git
+	branch = develop
+[submodule "roles/flatpak_evince"]
+	path = roles/flatpak_evince
+	url = https://github.com/alvistack/ansible-role-flatpak_evince.git
+	branch = develop
+[submodule "roles/flatpak_filezilla"]
+	path = roles/flatpak_filezilla
+	url = https://github.com/alvistack/ansible-role-flatpak_filezilla.git
+	branch = develop
+[submodule "roles/flatpak_firefox"]
+	path = roles/flatpak_firefox
+	url = https://github.com/alvistack/ansible-role-flatpak_firefox.git
+	branch = develop
+[submodule "roles/flatpak_gimp"]
+	path = roles/flatpak_gimp
+	url = https://github.com/alvistack/ansible-role-flatpak_gimp.git
+	branch = develop
+[submodule "roles/flatpak_gnucash"]
+	path = roles/flatpak_gnucash
+	url = https://github.com/alvistack/ansible-role-flatpak_gnucash.git
+	branch = develop
+[submodule "roles/flatpak_handbrake"]
+	path = roles/flatpak_handbrake
+	url = https://github.com/alvistack/ansible-role-flatpak_handbrake.git
+	branch = develop
+[submodule "roles/flatpak_inkscape"]
+	path = roles/flatpak_inkscape
+	url = https://github.com/alvistack/ansible-role-flatpak_inkscape.git
+	branch = develop
+[submodule "roles/flatpak_libreoffice"]
+	path = roles/flatpak_libreoffice
+	url = https://github.com/alvistack/ansible-role-flatpak_libreoffice.git
+	branch = develop
+[submodule "roles/flatpak_obs_studio"]
+	path = roles/flatpak_obs_studio
+	url = https://github.com/alvistack/ansible-role-flatpak_obs_studio.git
+	branch = develop
+[submodule "roles/flatpak_owasp_zap"]
+	path = roles/flatpak_owasp_zap
+	url = https://github.com/alvistack/ansible-role-flatpak_owasp_zap.git
+	branch = develop
+[submodule "roles/flatpak_picard"]
+	path = roles/flatpak_picard
+	url = https://github.com/alvistack/ansible-role-flatpak_picard.git
+	branch = develop
+[submodule "roles/flatpak_remmina"]
+	path = roles/flatpak_remmina
+	url = https://github.com/alvistack/ansible-role-flatpak_remmina.git
+	branch = develop
+[submodule "roles/flatpak_scribus"]
+	path = roles/flatpak_scribus
+	url = https://github.com/alvistack/ansible-role-flatpak_scribus.git
+	branch = develop
+[submodule "roles/flatpak_simple_scan"]
+	path = roles/flatpak_simple_scan
+	url = https://github.com/alvistack/ansible-role-flatpak_simple_scan.git
+	branch = develop
+[submodule "roles/flatpak_teams"]
+	path = roles/flatpak_teams
+	url = https://github.com/alvistack/ansible-role-flatpak_teams.git
+	branch = develop
+[submodule "roles/flatpak_thunderbird"]
+	path = roles/flatpak_thunderbird
+	url = https://github.com/alvistack/ansible-role-flatpak_thunderbird.git
+	branch = develop
+[submodule "roles/flatpak_transmission"]
+	path = roles/flatpak_transmission
+	url = https://github.com/alvistack/ansible-role-flatpak_transmission.git
+	branch = develop
+[submodule "roles/flatpak_uget"]
+	path = roles/flatpak_uget
+	url = https://github.com/alvistack/ansible-role-flatpak_uget.git
+	branch = develop
+[submodule "roles/flatpak_virt_manager"]
+	path = roles/flatpak_virt_manager
+	url = https://github.com/alvistack/ansible-role-flatpak_virt_manager.git
+	branch = develop
+[submodule "roles/flatpak_vlc"]
+	path = roles/flatpak_vlc
+	url = https://github.com/alvistack/ansible-role-flatpak_vlc.git
+	branch = develop
+[submodule "roles/flatpak_zoom"]
+	path = roles/flatpak_zoom
+	url = https://github.com/alvistack/ansible-role-flatpak_zoom.git
+	branch = develop
 [submodule "roles/git"]
 	path = roles/git
 	url = https://github.com/alvistack/ansible-role-git.git
@@ -73,6 +193,10 @@
 [submodule "roles/node"]
 	path = roles/node
 	url = https://github.com/alvistack/ansible-role-node.git
+	branch = develop
+[submodule "roles/openconnect"]
+	path = roles/openconnect
+	url = https://github.com/alvistack/ansible-role-openconnect.git
 	branch = develop
 [submodule "roles/openjdk"]
 	path = roles/openjdk
@@ -149,128 +273,4 @@
 [submodule "roles/zram_generator"]
 	path = roles/zram_generator
 	url = https://github.com/alvistack/ansible-role-zram_generator.git
-	branch = develop
-[submodule "roles/flatpak_virt_manager"]
-	path = roles/flatpak_virt_manager
-	url = https://github.com/alvistack/ansible-role-flatpak_virt_manager.git
-	branch = develop
-[submodule "roles/openconnect"]
-	path = roles/openconnect
-	url = https://github.com/alvistack/ansible-role-openconnect.git
-	branch = develop
-[submodule "roles/flatpak_audacious"]
-	path = roles/flatpak_audacious
-	url = https://github.com/alvistack/ansible-role-flatpak_audacious.git
-	branch = develop
-[submodule "roles/flatpak_audacity"]
-	path = roles/flatpak_audacity
-	url = https://github.com/alvistack/ansible-role-flatpak_audacity.git
-	branch = develop
-[submodule "roles/flatpak_bleachbit"]
-	path = roles/flatpak_bleachbit
-	url = https://github.com/alvistack/ansible-role-flatpak_bleachbit.git
-	branch = develop
-[submodule "roles/flatpak_blender"]
-	path = roles/flatpak_blender
-	url = https://github.com/alvistack/ansible-role-flatpak_blender.git
-	branch = develop
-[submodule "roles/flatpak_baobab"]
-	path = roles/flatpak_baobab
-	url = https://github.com/alvistack/ansible-role-flatpak_baobab.git
-	branch = develop
-[submodule "roles/flatpak_chrome"]
-	path = roles/flatpak_chrome
-	url = https://github.com/alvistack/ansible-role-flatpak_chrome
-	branch = develop
-[submodule "roles/flatpak_code"]
-	path = roles/flatpak_code
-	url = https://github.com/alvistack/ansible-role-flatpak_code
-	branch = develop
-[submodule "roles/flatpak_darktable"]
-	path = roles/flatpak_darktable
-	url = https://github.com/alvistack/ansible-role-flatpak_darktable
-	branch = develop
-[submodule "roles/flatpak_eog"]
-	path = roles/flatpak_eog
-	url = https://github.com/alvistack/ansible-role-flatpak_eog
-	branch = develop
-[submodule "roles/flatpak_evince"]
-	path = roles/flatpak_evince
-	url = https://github.com/alvistack/ansible-role-flatpak_evince
-	branch = develop
-[submodule "roles/flatpak_filezilla"]
-	path = roles/flatpak_filezilla
-	url = https://github.com/alvistack/ansible-role-flatpak_filezilla
-	branch = develop
-[submodule "roles/flatpak_firefox"]
-	path = roles/flatpak_firefox
-	url = https://github.com/alvistack/ansible-role-flatpak_firefox
-	branch = develop
-[submodule "roles/flatpak_gimp"]
-	path = roles/flatpak_gimp
-	url = https://github.com/alvistack/ansible-role-flatpak_gimp
-	branch = develop
-[submodule "roles/flatpak_gnucash"]
-	path = roles/flatpak_gnucash
-	url = https://github.com/alvistack/ansible-role-flatpak_gnucash
-	branch = develop
-[submodule "roles/flatpak_handbrake"]
-	path = roles/flatpak_handbrake
-	url = https://github.com/alvistack/ansible-role-flatpak_handbrake
-	branch = develop
-[submodule "roles/flatpak_inkscape"]
-	path = roles/flatpak_inkscape
-	url = https://github.com/alvistack/ansible-role-flatpak_inkscape
-	branch = develop
-[submodule "roles/flatpak_libreoffice"]
-	path = roles/flatpak_libreoffice
-	url = https://github.com/alvistack/ansible-role-flatpak_libreoffice
-	branch = develop
-[submodule "roles/flatpak_obs_studio"]
-	path = roles/flatpak_obs_studio
-	url = https://github.com/alvistack/ansible-role-flatpak_obs_studio
-	branch = develop
-[submodule "roles/flatpak_owasp_zap"]
-	path = roles/flatpak_owasp_zap
-	url = https://github.com/alvistack/ansible-role-flatpak_owasp_zap
-	branch = develop
-[submodule "roles/flatpak_picard"]
-	path = roles/flatpak_picard
-	url = https://github.com/alvistack/ansible-role-flatpak_picard
-	branch = develop
-[submodule "roles/flatpak_remmina"]
-	path = roles/flatpak_remmina
-	url = https://github.com/alvistack/ansible-role-flatpak_remmina
-	branch = develop
-[submodule "roles/flatpak_scribus"]
-	path = roles/flatpak_scribus
-	url = https://github.com/alvistack/ansible-role-flatpak_scribus
-	branch = develop
-[submodule "roles/flatpak_simple_scan"]
-	path = roles/flatpak_simple_scan
-	url = https://github.com/alvistack/ansible-role-flatpak_simple_scan
-	branch = develop
-[submodule "roles/flatpak_teams"]
-	path = roles/flatpak_teams
-	url = https://github.com/alvistack/ansible-role-flatpak_teams
-	branch = develop
-[submodule "roles/flatpak_thunderbird"]
-	path = roles/flatpak_thunderbird
-	url = https://github.com/alvistack/ansible-role-flatpak_thunderbird
-	branch = develop
-[submodule "roles/flatpak_transmission"]
-	path = roles/flatpak_transmission
-	url = https://github.com/alvistack/ansible-role-flatpak_transmission
-	branch = develop
-[submodule "roles/flatpak_uget"]
-	path = roles/flatpak_uget
-	url = https://github.com/alvistack/ansible-role-flatpak_uget
-	branch = develop
-[submodule "roles/flatpak_vlc"]
-	path = roles/flatpak_vlc
-	url = https://github.com/alvistack/ansible-role-flatpak_vlc
-	branch = develop
-[submodule "roles/flatpak_zoom"]
-	path = roles/flatpak_zoom
-	url = https://github.com/alvistack/ansible-role-flatpak_zoom
 	branch = develop
