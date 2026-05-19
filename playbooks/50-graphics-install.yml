@@ -20,32 +20,32 @@
   tasks:
     - name: include role
       ansible.builtin.include_role:
-        name: obs_studio
+        name: flatpak_obs_studio
 
     - name: include role
       ansible.builtin.include_role:
-        name: blender
+        name: flatpak_blender
 
     - name: include role
       ansible.builtin.include_role:
-        name: gimp
+        name: flatpak_gimp
 
     - name: include role
       ansible.builtin.include_role:
-        name: inkscape
+        name: flatpak_inkscape
 
     - name: include role
       ansible.builtin.include_role:
-        name: scribus
+        name: flatpak_scribus
 
     - name: include role
       ansible.builtin.include_role:
-        name: darktable
+        name: flatpak_darktable
 
     - name: include role
       ansible.builtin.include_role:
-        name: handbrake
+        name: flatpak_handbrake
 
     - name: include role
       ansible.builtin.include_role:
-        name: vlc
+        name: flatpak_vlc

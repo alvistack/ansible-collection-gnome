@@ -20,8 +20,8 @@
   tasks:
     - name: include role
       ansible.builtin.include_role:
-        name: code
+        name: flatpak_code
 
     - name: include role
       ansible.builtin.include_role:
-        name: libreoffice
+        name: flatpak_libreoffice

@@ -20,12 +20,12 @@
   tasks:
     - name: include role
       ansible.builtin.include_role:
-        name: audacious
+        name: flatpak_audacious
 
     - name: include role
       ansible.builtin.include_role:
-        name: audacity
+        name: flatpak_audacity
 
     - name: include role
       ansible.builtin.include_role:
-        name: picard
+        name: flatpak_picard

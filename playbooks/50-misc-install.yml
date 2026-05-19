@@ -24,7 +24,7 @@
 
     - name: include role
       ansible.builtin.include_role:
-        name: bleachbit
+        name: flatpak_bleachbit
 
     - name: include role
       ansible.builtin.include_role:
@@ -36,15 +36,15 @@
 
     - name: include role
       ansible.builtin.include_role:
-        name: uget
+        name: flatpak_uget
 
     - name: include role
       ansible.builtin.include_role:
-        name: filezilla
+        name: flatpak_filezilla
 
     - name: include role
       ansible.builtin.include_role:
-        name: transmission
+        name: flatpak_transmission
 
     - name: include role
       ansible.builtin.include_role:
@@ -52,11 +52,11 @@
 
     - name: include role
       ansible.builtin.include_role:
-        name: teams
+        name: flatpak_teams
 
     - name: include role
       ansible.builtin.include_role:
-        name: zoom
+        name: flatpak_zoom
 
     - name: include role
       ansible.builtin.include_role:
@@ -64,8 +64,12 @@
 
     - name: include role
       ansible.builtin.include_role:
+        name: openconnect
+
+    - name: include role
+      ansible.builtin.include_role:
         name: gparted
 
     - name: include role
       ansible.builtin.include_role:
-        name: gnucash
+        name: flatpak_gnucash

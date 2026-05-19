@@ -20,12 +20,12 @@
   tasks:
     - name: include role
       ansible.builtin.include_role:
-        name: firefox
+        name: flatpak_firefox
 
     - name: include role
       ansible.builtin.include_role:
-        name: chrome
+        name: flatpak_chrome
 
     - name: include role
       ansible.builtin.include_role:
-        name: thunderbird
+        name: flatpak_thunderbird

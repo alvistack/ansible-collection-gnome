@@ -28,20 +28,20 @@
 
     - name: include role
       ansible.builtin.include_role:
-        name: baobab
+        name: flatpak_baobab
 
     - name: include role
       ansible.builtin.include_role:
-        name: eog
+        name: flatpak_eog
 
     - name: include role
       ansible.builtin.include_role:
-        name: evince
+        name: flatpak_evince
 
     - name: include role
       ansible.builtin.include_role:
-        name: remmina
+        name: flatpak_remmina
 
     - name: include role
       ansible.builtin.include_role:
-        name: simple_scan
+        name: flatpak_simple_scan
