@@ -32,7 +32,7 @@
 
     - name: include role
       ansible.builtin.include_role:
-        name: flatpak_libvirt_manager
+        name: flatpak_virt_manager
 
     - name: include role
       ansible.builtin.include_role:
